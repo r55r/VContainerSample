@@ -1,5 +1,7 @@
-namespace Sample.Service {
-	public interface IAnalyticsService {
-		void SendEvent(string name);
-	}
+namespace Sample.Service
+{
+    public interface IAnalyticsService
+    {
+        void SendEvent(string name);
+    }
 }

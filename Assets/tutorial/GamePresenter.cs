@@ -2,7 +2,7 @@ using VContainer.Unity;
 
 namespace tutorial
 {
-    public class GamePresenter: IStartable
+    public class GamePresenter : IStartable
     {
         private readonly HelloWorldService _helloWorldService;
         private readonly SayHelloButton _sayHelloButton;

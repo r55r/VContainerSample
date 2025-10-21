@@ -5,28 +5,33 @@ using UnityEngine;
 using VContainer;
 using VContainer.Unity;
 
-namespace Sample.Scope {
-	public sealed class SampleSceneScope : LifetimeScope {
-		[SerializeField] ClickEffectView _clickEffectView;
-		[SerializeField] UpgradeWindow _upgradeWindow;
+namespace Sample.Scope
+{
+    public sealed class SampleSceneScope : LifetimeScope
+    {
+        [SerializeField] ClickEffectView _clickEffectView;
+        [SerializeField] UpgradeWindow _upgradeWindow;
 
-		protected override void Configure(IContainerBuilder builder) {
-			builder.RegisterEntryPoint<SampleSceneStarter>();
-			builder.Register<ClickService>(Lifetime.Scoped)
-				.AsSelf()
-				.As<ITickable>();
-			builder.Register<UpgradeService>(Lifetime.Scoped);
-			builder.RegisterInstance(_upgradeWindow);
-			builder
-				.RegisterFactory<int, ClickEffectView>(resolver => {
-					return clickCount => {
-						var view = resolver.Instantiate(_clickEffectView);
-						view.Init(clickCount);
-						return view;
-					};
-				}, Lifetime.Transient);
-			// Alternative implicit way:
-			/*builder
+        protected override void Configure(IContainerBuilder builder)
+        {
+            builder.RegisterEntryPoint<SampleSceneStarter>();
+            builder.Register<ClickService>(Lifetime.Scoped)
+                .AsSelf()
+                .As<ITickable>();
+            builder.Register<UpgradeService>(Lifetime.Scoped);
+            builder.RegisterInstance(_upgradeWindow);
+            builder
+                .RegisterFactory<int, ClickEffectView>(resolver =>
+                {
+                    return clickCount =>
+                    {
+                        var view = resolver.Instantiate(_clickEffectView);
+                        view.Init(clickCount);
+                        return view;
+                    };
+                }, Lifetime.Transient);
+            // Alternative implicit way:
+            /*builder
 				.RegisterFactory<ClickEffectView>(container => {
 					return () => {
 						var clickService = container.Resolve<ClickService>();
@@ -35,6 +40,6 @@ namespace Sample.Scope {
 						return view;
 					};
 				}, Lifetime.Transient);*/
-		}
-	}
+        }
+    }
 }

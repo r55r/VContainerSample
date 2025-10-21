@@ -1,5 +1,7 @@
-namespace Sample.Service {
-	public interface IGameStateSaver {
-		void SaveGameState();
-	}
+namespace Sample.Service
+{
+    public interface IGameStateSaver
+    {
+        void SaveGameState();
+    }
 }
