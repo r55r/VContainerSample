@@ -1,7 +1,9 @@
+using JetBrains.Annotations;
 using Service;
 
 namespace Manager
 {
+    [UsedImplicitly]
     public sealed class EntryPointManager
     {
         readonly SceneLoader _sceneLoader;

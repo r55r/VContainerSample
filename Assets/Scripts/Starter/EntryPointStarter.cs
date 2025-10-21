@@ -1,4 +1,5 @@
 using System;
+using JetBrains.Annotations;
 using Manager;
 using UnityEngine;
 using VContainer;
@@ -6,6 +7,7 @@ using VContainer.Unity;
 
 namespace Starter
 {
+    [UsedImplicitly]
     public sealed class EntryPointStarter : IStartable, IDisposable
     {
         EntryPointManager _manager;

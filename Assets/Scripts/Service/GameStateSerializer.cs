@@ -1,8 +1,10 @@
+using JetBrains.Annotations;
 using State;
 using UnityEngine;
 
 namespace Service
 {
+    [UsedImplicitly]
     public sealed class GameStateSerializer : IGameStateSaver
     {
         const string PrefsKey = "GameState";

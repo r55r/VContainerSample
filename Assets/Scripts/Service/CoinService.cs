@@ -1,7 +1,9 @@
+using JetBrains.Annotations;
 using State;
 
 namespace Service
 {
+    [UsedImplicitly]
     public sealed class CoinService
     {
         public int Coins => _state.coins;

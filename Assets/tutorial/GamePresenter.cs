@@ -1,7 +1,9 @@
+using JetBrains.Annotations;
 using VContainer.Unity;
 
 namespace tutorial
 {
+    [UsedImplicitly]
     public class GamePresenter : IStartable
     {
         private readonly HelloWorldService _helloWorldService;

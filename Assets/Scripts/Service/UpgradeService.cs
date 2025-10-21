@@ -1,7 +1,9 @@
+using JetBrains.Annotations;
 using State;
 
 namespace Service
 {
+    [UsedImplicitly]
     public sealed class UpgradeService
     {
         public int UpgradeLevel => _state.upgradeLevel;

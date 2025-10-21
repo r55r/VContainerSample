@@ -1,9 +1,11 @@
+using JetBrains.Annotations;
 using State;
 using UnityEngine;
 using VContainer.Unity;
 
 namespace Service
 {
+    [UsedImplicitly]
     public sealed class ClickService : ITickable
     {
         public bool CanClick { get; private set; } = true;
