@@ -1,12 +1,12 @@
 using System;
 
-namespace Sample.State
+namespace State
 {
     [Serializable]
     public sealed class GameState
     {
-        public ClickState ClickState = new ClickState();
-        public UpgradeState UpgradeState = new UpgradeState();
-        public CoinState CoinState = new CoinState();
+        public ClickState clickState = new();
+        public UpgradeState upgradeState = new();
+        public CoinState coinState = new();
     }
 }

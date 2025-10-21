@@ -1,23 +1,23 @@
-using Sample.Service;
+using Service;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using VContainer;
 
-namespace Sample.View
+namespace View
 {
     public sealed class UpgradeWindow : MonoBehaviour
     {
-        [SerializeField] Button _closeButton;
-        [SerializeField] Button _upgradeButton;
-        [SerializeField] TMP_Text _upgradePrice;
+        [SerializeField] Button closeButton;
+        [SerializeField] Button upgradeButton;
+        [SerializeField] TMP_Text upgradePrice;
 
         UpgradeService _upgradeService;
 
         void Awake()
         {
-            _upgradeButton.onClick.AddListener(Upgrade);
-            _closeButton.onClick.AddListener(Hide);
+            upgradeButton.onClick.AddListener(Upgrade);
+            closeButton.onClick.AddListener(Hide);
             Hide();
         }
 
@@ -34,8 +34,8 @@ namespace Sample.View
 
         public void Show()
         {
-            _upgradePrice.text = _upgradeService.UpgradePrice.ToString();
-            _upgradeButton.interactable = _upgradeService.CanUpgrade();
+            upgradePrice.text = _upgradeService.UpgradePrice.ToString();
+            upgradeButton.interactable = _upgradeService.CanUpgrade();
             gameObject.SetActive(true);
         }
 

@@ -1,9 +1,9 @@
-using Sample.Manager;
-using Sample.Starter;
+using Manager;
+using Starter;
 using VContainer;
 using VContainer.Unity;
 
-namespace Sample.Scope
+namespace Scope
 {
     public sealed class EntryPointScope : LifetimeScope
     {

@@ -1,12 +1,10 @@
-using Sample.State;
-using UnityEngine;
-using VContainer.Unity;
+using State;
 
-namespace Sample.Service
+namespace Service
 {
     public sealed class UpgradeService
     {
-        public int UpgradeLevel => _state.UpgradeLevel;
+        public int UpgradeLevel => _state.upgradeLevel;
         public int UpgradePrice => 10 + UpgradeLevel * 10;
 
         readonly UpgradeState _state;
@@ -27,9 +25,9 @@ namespace Sample.Service
         public void Upgrade()
         {
             _coinService.Consume(UpgradePrice);
-            _state.UpgradeLevel++;
+            _state.upgradeLevel++;
             _saver.SaveGameState();
-            _analytics.SendEvent($"Upgrade_{_state.UpgradeLevel}");
+            _analytics.SendEvent($"Upgrade_{_state.upgradeLevel}");
         }
     }
 }

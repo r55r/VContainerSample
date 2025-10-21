@@ -1,6 +1,6 @@
 using UnityEngine.SceneManagement;
 
-namespace Sample.Service
+namespace Service
 {
     public sealed class SceneLoader
     {

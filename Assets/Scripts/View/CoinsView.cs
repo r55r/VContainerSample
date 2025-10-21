@@ -1,20 +1,20 @@
-using Sample.Service;
+using Service;
 using TMPro;
 using UnityEngine;
 using VContainer;
 
-namespace Sample.View
+namespace View
 {
     [RequireComponent(typeof(TMP_Text))]
     public sealed class CoinsView : MonoBehaviour
     {
-        [SerializeField] TMP_Text _text;
+        [SerializeField] TMP_Text text;
 
         CoinService _service;
 
         void Reset()
         {
-            _text = GetComponent<TMP_Text>();
+            text = GetComponent<TMP_Text>();
         }
 
         [Inject]
@@ -24,6 +24,6 @@ namespace Sample.View
         }
 
         void Update() =>
-            _text.text = _service.Coins.ToString();
+            text.text = _service.Coins.ToString();
     }
 }

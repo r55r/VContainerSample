@@ -1,14 +1,14 @@
-using Sample.State;
+using State;
 using UnityEngine;
 using VContainer.Unity;
 
-namespace Sample.Service
+namespace Service
 {
     public sealed class ClickService : ITickable
     {
         public bool CanClick { get; private set; } = true;
 
-        public int ClickCount => _state.ClickCount;
+        public int ClickCount => _state.clickCount;
 
         float ClickCooldown => 3.0f / (1 + _upgradeService.UpgradeLevel);
 
@@ -37,10 +37,10 @@ namespace Sample.Service
         public void Click()
         {
             _lastClickTime = Time.realtimeSinceStartup;
-            _state.ClickCount++;
+            _state.clickCount++;
             _coinService.Increase(ClickIncome);
             _saver.SaveGameState();
-            _analytics.SendEvent($"Click_{_state.ClickCount}");
+            _analytics.SendEvent($"Click_{_state.clickCount}");
         }
     }
 }

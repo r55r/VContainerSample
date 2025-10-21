@@ -1,19 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
-using tutorial;
 using UnityEngine;
 using VContainer;
 using VContainer.Unity;
 
-public class SceneScope : LifetimeScope
+namespace tutorial
 {
-    [SerializeField] private SayHelloButton sayHelloButton;
-
-    protected override void Configure(IContainerBuilder builder)
+    public class SceneScope : LifetimeScope
     {
-        builder.Register<HelloWorldService>(Lifetime.Singleton);
-        builder.Register<GamePresenter>(Lifetime.Singleton);
-        builder.RegisterComponent(sayHelloButton);
-        builder.RegisterEntryPoint<GamePresenter>();
+        [SerializeField] private SayHelloButton sayHelloButton;
+
+        protected override void Configure(IContainerBuilder builder)
+        {
+            builder.Register<HelloWorldService>(Lifetime.Singleton);
+            builder.Register<GamePresenter>(Lifetime.Singleton);
+            builder.RegisterComponent(sayHelloButton);
+            builder.RegisterEntryPoint<GamePresenter>();
+        }
     }
 }

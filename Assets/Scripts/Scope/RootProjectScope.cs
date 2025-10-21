@@ -1,11 +1,11 @@
 using System;
-using Sample.Service;
-using Sample.State;
+using Service;
+using State;
 using UnityEngine;
 using VContainer;
 using VContainer.Unity;
 
-namespace Sample.Scope
+namespace Scope
 {
     public sealed class RootProjectScope : LifetimeScope
     {
@@ -23,9 +23,9 @@ namespace Sample.Scope
                 return serializer.LoadGameState();
             }, Lifetime.Singleton);
             // Shortcuts required to pass specific state parts in services, not a complete game state
-            RegisterGameStateShortcut(builder, gs => gs.ClickState);
-            RegisterGameStateShortcut(builder, gs => gs.UpgradeState);
-            RegisterGameStateShortcut(builder, gs => gs.CoinState);
+            RegisterGameStateShortcut(builder, gs => gs.clickState);
+            RegisterGameStateShortcut(builder, gs => gs.upgradeState);
+            RegisterGameStateShortcut(builder, gs => gs.coinState);
             if (Application.isEditor)
             {
                 builder.Register<IAnalyticsService, EditorAnalytics>(Lifetime.Singleton);

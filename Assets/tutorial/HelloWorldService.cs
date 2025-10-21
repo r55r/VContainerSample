@@ -1,11 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class HelloWorldService
+namespace tutorial
 {
-    public void SayHello()
+    public class HelloWorldService
     {
-        Debug.Log("Hello");
+        public void SayHello()
+        {
+            Debug.Log("Hello");
+        }
     }
 }

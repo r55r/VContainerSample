@@ -1,4 +1,4 @@
-namespace Sample.Service
+namespace Service
 {
     public sealed class DebtService
     {

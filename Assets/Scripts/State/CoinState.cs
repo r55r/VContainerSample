@@ -1,10 +1,10 @@
 using System;
 
-namespace Sample.State
+namespace State
 {
     [Serializable]
     public sealed class CoinState
     {
-        public int Coins;
+        public int coins;
     }
 }

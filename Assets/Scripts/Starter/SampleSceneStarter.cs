@@ -1,4 +1,4 @@
-namespace Sample.Starter
+namespace Starter
 {
     public sealed class SampleSceneStarter { }
 }

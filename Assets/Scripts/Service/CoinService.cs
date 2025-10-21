@@ -1,10 +1,10 @@
-using Sample.State;
+using State;
 
-namespace Sample.Service
+namespace Service
 {
     public sealed class CoinService
     {
-        public int Coins => _state.Coins;
+        public int Coins => _state.coins;
 
         readonly CoinState _state;
         readonly IAnalyticsService _analytics;
@@ -21,13 +21,13 @@ namespace Sample.Service
 
         public void Consume(int count)
         {
-            _state.Coins -= count;
+            _state.coins -= count;
             _analytics.SendEvent($"ConsumeCoins_{count}");
         }
 
         public void Increase(int count)
         {
-            _state.Coins += count;
+            _state.coins += count;
             _analytics.SendEvent($"IncreaseCoins_{count}");
         }
     }

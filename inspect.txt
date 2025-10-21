@@ -1,0 +1,5928 @@
+{
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.6.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "'pixel_t' does not name a value"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Mobile.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 29,
+                  "endLine": 39,
+                  "endColumn": 36,
+                  "charOffset": 952,
+                  "charLength": 7
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "803D7B4438F6913D1ED55F9E7590C2B1A3C25F3C39A89E2CC2776D50FBB46168"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'GetColor'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 14,
+                  "endLine": 56,
+                  "endColumn": 22,
+                  "charOffset": 2012,
+                  "charLength": 8
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "3D618E86D2A1D681675587557FD83FC8286949F0494F16D956BD5F06410BBACE"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'Input'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 43,
+                  "endLine": 1,
+                  "endColumn": 48,
+                  "charOffset": 42,
+                  "charLength": 5
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "A459486BACC958317D27AE14A62F086EC3688F6B8C617787405F283F9A6DF169"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'Input'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 26,
+                  "endLine": 6,
+                  "endColumn": 31,
+                  "charOffset": 144,
+                  "charLength": 5
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "9356D27DF7E39EFDF39AFB1F6DE815DA2398BC2C9F4F130455C684E14641D94C"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'Input'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 16,
+                  "endLine": 32,
+                  "endColumn": 21,
+                  "charOffset": 1036,
+                  "charLength": 5
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "9780F21E0D1F82055DED139A198668B2BDF03E865B8BA204623D3B74FAC9647A"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'ObjSpaceViewDir'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 16,
+                  "endLine": 11,
+                  "endColumn": 31,
+                  "charOffset": 245,
+                  "charLength": 15
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "54D62ED76F2A46C14EDE11BF8F4DE116BB935CC4B2B2729D91558E2E45122E95"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'SAMPLE_TEXTURE2D'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/SDFFunctions.hlsl",
+                  "uriBaseId": "solutionDir",
+                  "index": 2
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 3,
+                  "endLine": 31,
+                  "endColumn": 19,
+                  "charOffset": 846,
+                  "charLength": 16
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "89ABAC58AA1843B8ADE5826D0C80C3066961DD1B3E9E927FD4DA45001968BCF5"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'SAMPLE_TEXTURE2D'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/SDFFunctions.hlsl",
+                  "uriBaseId": "solutionDir",
+                  "index": 2
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 3,
+                  "endLine": 32,
+                  "endColumn": 19,
+                  "charOffset": 917,
+                  "charLength": 16
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "F3EB11C3B7AB8784990E1BDA9668C0F4F7708DA061A56BC134030FF039463AE0"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'SAMPLE_TEXTURE2D'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/SDFFunctions.hlsl",
+                  "uriBaseId": "solutionDir",
+                  "index": 2
+                },
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 3,
+                  "endLine": 33,
+                  "endColumn": 19,
+                  "charOffset": 988,
+                  "charLength": 16
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "FE2E2A144EB2D5B0B1E26506CB01C0C50EDD1A2E84A5D2B5138890FE833EB951"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'SAMPLE_TEXTURE2D'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/SDFFunctions.hlsl",
+                  "uriBaseId": "solutionDir",
+                  "index": 2
+                },
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 3,
+                  "endLine": 34,
+                  "endColumn": 19,
+                  "charOffset": 1059,
+                  "charLength": 16
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "95F11CF11EF6A4D41AA8066FC5FD76BD901EB458435C23E46704E4B7AFED6441"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'SamplerState_Linear_Clamp'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/SDFFunctions.hlsl",
+                  "uriBaseId": "solutionDir",
+                  "index": 2
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 27,
+                  "endLine": 31,
+                  "endColumn": 52,
+                  "charOffset": 870,
+                  "charLength": 25
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "89ABAC58AA1843B8ADE5826D0C80C3066961DD1B3E9E927FD4DA45001968BCF5"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'SamplerState_Linear_Clamp'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/SDFFunctions.hlsl",
+                  "uriBaseId": "solutionDir",
+                  "index": 2
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 27,
+                  "endLine": 32,
+                  "endColumn": 52,
+                  "charOffset": 941,
+                  "charLength": 25
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "F3EB11C3B7AB8784990E1BDA9668C0F4F7708DA061A56BC134030FF039463AE0"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'SamplerState_Linear_Clamp'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/SDFFunctions.hlsl",
+                  "uriBaseId": "solutionDir",
+                  "index": 2
+                },
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 27,
+                  "endLine": 33,
+                  "endColumn": 52,
+                  "charOffset": 1012,
+                  "charLength": 25
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "FE2E2A144EB2D5B0B1E26506CB01C0C50EDD1A2E84A5D2B5138890FE833EB951"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'SamplerState_Linear_Clamp'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/SDFFunctions.hlsl",
+                  "uriBaseId": "solutionDir",
+                  "index": 2
+                },
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 27,
+                  "endLine": 34,
+                  "endColumn": 52,
+                  "charOffset": 1083,
+                  "charLength": 25
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "95F11CF11EF6A4D41AA8066FC5FD76BD901EB458435C23E46704E4B7AFED6441"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'SurfaceOutput'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 35,
+                  "endLine": 32,
+                  "endColumn": 48,
+                  "charOffset": 1055,
+                  "charLength": 13
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "9780F21E0D1F82055DED139A198668B2BDF03E865B8BA204623D3B74FAC9647A"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'UNITY_INITIALIZE_OUTPUT'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Mobile.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 5,
+                  "endLine": 39,
+                  "endColumn": 28,
+                  "charOffset": 928,
+                  "charLength": 23
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "803D7B4438F6913D1ED55F9E7590C2B1A3C25F3C39A89E2CC2776D50FBB46168"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'UNITY_INITIALIZE_OUTPUT'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 2,
+                  "endLine": 6,
+                  "endColumn": 25,
+                  "charOffset": 120,
+                  "charLength": 23
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "9356D27DF7E39EFDF39AFB1F6DE815DA2398BC2C9F4F130455C684E14641D94C"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Mobile.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 5,
+                  "endLine": 42,
+                  "endColumn": 42,
+                  "charOffset": 1057,
+                  "charLength": 37
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "FB4B2C729A61ACC8DCE8F07CDD5F03958E168BB86DC899D89B197D29404F80A7"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'UNITY_MATRIX_P'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 56,
+                  "endLine": 21,
+                  "endColumn": 70,
+                  "charOffset": 519,
+                  "charLength": 14
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "CF1FB9D2F729DC74D44FF322D557303FCF9C61F68FCC49DF516D1D54073FDB6B"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'UNITY_SETUP_INSTANCE_ID'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Mobile.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 40,
+                  "startColumn": 5,
+                  "endLine": 40,
+                  "endColumn": 28,
+                  "charOffset": 974,
+                  "charLength": 23
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "2DFCDDDEAA15DE4E2AEE23EB38264F5C488AA831E7C9F5FB7FFC041AA8AEE800"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'UNITY_SETUP_INSTANCE_ID'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Mobile.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 104,
+                  "startColumn": 5,
+                  "endLine": 104,
+                  "endColumn": 28,
+                  "charOffset": 2957,
+                  "charLength": 23
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "B794F432B7C2DC2DF247ACFFBDB6AF42AA8CC7C5A4DA11F9626569E2BD8372A6"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'UNITY_TRANSFER_INSTANCE_ID'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Mobile.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 5,
+                  "endLine": 41,
+                  "endColumn": 31,
+                  "charOffset": 1010,
+                  "charLength": 26
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "76A9CD182666C78292C216D11A5A321C6C89576AB61B491555A2BC7921F2FA96"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'UNITY_VERTEX_INPUT_INSTANCE_ID'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Mobile.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 5,
+                  "endLine": 13,
+                  "endColumn": 35,
+                  "charOffset": 239,
+                  "charLength": 30
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "197D35AA3C436D8896A82B39F7BB49244A0DA710B0CC4C3B65CCA7C04F2A32CD"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'UnityObjectToClipPos'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Mobile.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 24,
+                  "endLine": 50,
+                  "endColumn": 44,
+                  "charOffset": 1269,
+                  "charLength": 20
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "27D8D07212F03EFD9D42FCDA41A61836F6E2173BB259D5A143A7407196299A20"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'UnityObjectToClipPos'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 21,
+                  "endLine": 18,
+                  "endColumn": 41,
+                  "charOffset": 402,
+                  "charLength": 20
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "F97A96DC473E73DEB8DB999C740F89A182E630FE395CE6E38380F1BD9CD06859"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'UnityObjectToWorldNormal'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 64,
+                  "endLine": 24,
+                  "endColumn": 88,
+                  "charOffset": 731,
+                  "charLength": 24
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "826E99FD341745D55AAC9E90E60F31CB02CABB7081CFFC478EBEE33E9B7D7C7E"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'WorldSpaceViewDir'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 114,
+                  "endLine": 24,
+                  "endColumn": 131,
+                  "charOffset": 781,
+                  "charLength": 17
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "826E99FD341745D55AAC9E90E60F31CB02CABB7081CFFC478EBEE33E9B7D7C7E"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'WorldSpaceViewDir'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 46,
+                  "endLine": 29,
+                  "endColumn": 63,
+                  "charOffset": 988,
+                  "charLength": 17
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "2ED7F35B1DA237BA43B485EE7D5011281DC8C9D4978523D57154ADFE395C503E"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_Ambient'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/SDFFunctions.hlsl",
+                  "uriBaseId": "solutionDir",
+                  "index": 2
+                },
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 14,
+                  "endLine": 68,
+                  "endColumn": 22,
+                  "charOffset": 2135,
+                  "charLength": 8
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "35E8355EED112F2B09F347E822574EBA3EAC5CD5DCDE1010B54205D6EF1D768B"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_Bevel'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 3
+                },
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 7,
+                  "endLine": 41,
+                  "endColumn": 13,
+                  "charOffset": 964,
+                  "charLength": 6
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "05D4030EB95DA110647ADC17CCD226B108C48D234901E2B0D3D11DFA525F0B5C"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_BevelAmount'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/SDFFunctions.hlsl",
+                  "uriBaseId": "solutionDir",
+                  "index": 2
+                },
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 7,
+                  "endLine": 50,
+                  "endColumn": 19,
+                  "charOffset": 1544,
+                  "charLength": 12
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "F729C9C764B90368DF6D911021526582404B67A78B0F442F66A8E03D20E275E9"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_BevelClamp'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/SDFFunctions.hlsl",
+                  "uriBaseId": "solutionDir",
+                  "index": 2
+                },
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 26,
+                  "endLine": 49,
+                  "endColumn": 37,
+                  "charOffset": 1484,
+                  "charLength": 11
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "2F0F616B2156E9DCBA31B24F3DE245B3C536C5D751ED800B1C52E35AD4C2B25A"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_BevelClamp'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/SDFFunctions.hlsl",
+                  "uriBaseId": "solutionDir",
+                  "index": 2
+                },
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 39,
+                  "endLine": 49,
+                  "endColumn": 50,
+                  "charOffset": 1497,
+                  "charLength": 11
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "2F0F616B2156E9DCBA31B24F3DE245B3C536C5D751ED800B1C52E35AD4C2B25A"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_BevelClamp'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/SDFFunctions.hlsl",
+                  "uriBaseId": "solutionDir",
+                  "index": 2
+                },
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 52,
+                  "endLine": 49,
+                  "endColumn": 63,
+                  "charOffset": 1510,
+                  "charLength": 11
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "2F0F616B2156E9DCBA31B24F3DE245B3C536C5D751ED800B1C52E35AD4C2B25A"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_BevelClamp'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/SDFFunctions.hlsl",
+                  "uriBaseId": "solutionDir",
+                  "index": 2
+                },
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 65,
+                  "endLine": 49,
+                  "endColumn": 76,
+                  "charOffset": 1523,
+                  "charLength": 11
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "2F0F616B2156E9DCBA31B24F3DE245B3C536C5D751ED800B1C52E35AD4C2B25A"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_BevelClamp'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 3
+                },
+                "region": {
+                  "startLine": 40,
+                  "startColumn": 17,
+                  "endLine": 40,
+                  "endColumn": 28,
+                  "charOffset": 944,
+                  "charLength": 11
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "C3B4BFDDFFA0D97A64667B8768E350A49DE35EFE2063475C1A6ECDC7423B1D8E"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_BevelOffset'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/SDFFunctions.hlsl",
+                  "uriBaseId": "solutionDir",
+                  "index": 2
+                },
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 7,
+                  "endLine": 38,
+                  "endColumn": 19,
+                  "charOffset": 1169,
+                  "charLength": 12
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "CFD767452E8413D3A2D75C883BD755EB99041DACD14F820CDDEC1D6DB03E34CC"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_BevelOffset'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 3
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 12,
+                  "endLine": 29,
+                  "endColumn": 24,
+                  "charOffset": 691,
+                  "charLength": 12
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "B9FD704E8B8247D41766142200E0527389E61C85A4BF479DFA340A7265BCDA15"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_BevelRoundness'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/SDFFunctions.hlsl",
+                  "uriBaseId": "solutionDir",
+                  "index": 2
+                },
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 46,
+                  "endLine": 48,
+                  "endColumn": 61,
+                  "charOffset": 1389,
+                  "charLength": 15
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "FE6E90EAAB8C3800FA394C9A5B60CF6FDFBDE566D623FBACF2EC3EAE91BCA3A7"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_BevelRoundness'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/SDFFunctions.hlsl",
+                  "uriBaseId": "solutionDir",
+                  "index": 2
+                },
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 63,
+                  "endLine": 48,
+                  "endColumn": 78,
+                  "charOffset": 1406,
+                  "charLength": 15
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "FE6E90EAAB8C3800FA394C9A5B60CF6FDFBDE566D623FBACF2EC3EAE91BCA3A7"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_BevelRoundness'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/SDFFunctions.hlsl",
+                  "uriBaseId": "solutionDir",
+                  "index": 2
+                },
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 80,
+                  "endLine": 48,
+                  "endColumn": 95,
+                  "charOffset": 1423,
+                  "charLength": 15
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "FE6E90EAAB8C3800FA394C9A5B60CF6FDFBDE566D623FBACF2EC3EAE91BCA3A7"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_BevelRoundness'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/SDFFunctions.hlsl",
+                  "uriBaseId": "solutionDir",
+                  "index": 2
+                },
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 97,
+                  "endLine": 48,
+                  "endColumn": 112,
+                  "charOffset": 1440,
+                  "charLength": 15
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "FE6E90EAAB8C3800FA394C9A5B60CF6FDFBDE566D623FBACF2EC3EAE91BCA3A7"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_BevelRoundness'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 3
+                },
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 35,
+                  "endLine": 39,
+                  "endColumn": 50,
+                  "charOffset": 910,
+                  "charLength": 15
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "253E543E70AB7ED56496FAD0ED2DAA4F433830DFC5DD826052DE48189C13438F"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_BevelType'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/SDFFunctions.hlsl",
+                  "uriBaseId": "solutionDir",
+                  "index": 2
+                },
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 21,
+                  "endLine": 36,
+                  "endColumn": 31,
+                  "charOffset": 1150,
+                  "charLength": 10
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "33836C6CCA114E8CCE5A4DD7E5FBB89794E8DE568DA4C567D3839FD1387C0B10"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_BevelWidth'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/SDFFunctions.hlsl",
+                  "uriBaseId": "solutionDir",
+                  "index": 2
+                },
+                "region": {
+                  "startLine": 40,
+                  "startColumn": 30,
+                  "endLine": 40,
+                  "endColumn": 41,
+                  "charOffset": 1213,
+                  "charLength": 11
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "FD1D4F946B78C9C4FC53CBFC8B47A5B8C2B91EF7AB7CC029E5BD83C302211AE6"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_BevelWidth'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 3
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 44,
+                  "endLine": 31,
+                  "endColumn": 55,
+                  "charOffset": 749,
+                  "charLength": 11
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "087D02234BED3DF0A24BAD360611E1757A846C98B431A6817CC05BEB68A91615"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_ClipRect'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Mobile.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 32,
+                  "endLine": 56,
+                  "endColumn": 41,
+                  "charOffset": 1496,
+                  "charLength": 9
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "22F5F154DF5A0C6D97CC0C35F8AE6442AB697D40DF0DE3CBE3DBEE755658F996"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_Diffuse'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/SDFFunctions.hlsl",
+                  "uriBaseId": "solutionDir",
+                  "index": 2
+                },
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 30,
+                  "endLine": 67,
+                  "endColumn": 38,
+                  "charOffset": 2111,
+                  "charLength": 8
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "C3821F614B349295E0A5462140D71408D8380C6318C1F85D7E66B0ED130FBE45"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_EnvMatrix'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 34,
+                  "endLine": 29,
+                  "endColumn": 44,
+                  "charOffset": 976,
+                  "charLength": 10
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "2ED7F35B1DA237BA43B485EE7D5011281DC8C9D4978523D57154ADFE395C503E"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_FaceColor'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Mobile.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 69,
+                  "startColumn": 53,
+                  "endLine": 69,
+                  "endColumn": 63,
+                  "charOffset": 1890,
+                  "charLength": 10
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "A6772FD69D076969296926CDB5E0067E334E852DF91F05DC83A07CC9591ECB62"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_FaceColor'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 21,
+                  "endLine": 50,
+                  "endColumn": 31,
+                  "charOffset": 1604,
+                  "charLength": 10
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "3032C965CD30E4FBC46D81229022E345A3D7DE9C957D060437CD70662AAB78F0"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_FaceDilate'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Mobile.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 24,
+                  "endLine": 53,
+                  "endColumn": 35,
+                  "charOffset": 1386,
+                  "charLength": 11
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "86A433770C0435852125011AC5DBBEFBBDB0778BCE2764B711E99346007612C5"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_FaceDilate'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 65,
+                  "endLine": 28,
+                  "endColumn": 76,
+                  "charOffset": 905,
+                  "charLength": 11
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "E0FB9376B82E8363456ACB39324819A41ABA0878CE9EFD547F544B283B024291"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_FaceShininess'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 20,
+                  "endLine": 96,
+                  "endColumn": 34,
+                  "charOffset": 3409,
+                  "charLength": 14
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "019329B580310AE7FD953E8E69CA1CA2679F867D5BB65144AFB3258A03E60447"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_FaceTex'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 21,
+                  "endLine": 54,
+                  "endColumn": 29,
+                  "charOffset": 1735,
+                  "charLength": 8
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "6DEDEB82B483F734B26065A5F99482E3089054ADA8B7737715993850241D1E39"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_FaceUVSpeedX'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 60,
+                  "endLine": 54,
+                  "endColumn": 73,
+                  "charOffset": 1774,
+                  "charLength": 13
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "6DEDEB82B483F734B26065A5F99482E3089054ADA8B7737715993850241D1E39"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_FaceUVSpeedY'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 107,
+                  "endLine": 54,
+                  "endColumn": 120,
+                  "charOffset": 1821,
+                  "charLength": 13
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "6DEDEB82B483F734B26065A5F99482E3089054ADA8B7737715993850241D1E39"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_GlowColor'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 3
+                },
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 16,
+                  "endLine": 73,
+                  "endColumn": 26,
+                  "charOffset": 1939,
+                  "charLength": 10
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "B293664CDF2B36B6DEFD6D77EA1C460E5877BAAC4D047784F498B31EB4D72E04"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_GlowColor'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 3
+                },
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 41,
+                  "endLine": 73,
+                  "endColumn": 51,
+                  "charOffset": 1964,
+                  "charLength": 10
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "B293664CDF2B36B6DEFD6D77EA1C460E5877BAAC4D047784F498B31EB4D72E04"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_GlowInner'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 3
+                },
+                "region": {
+                  "startLine": 69,
+                  "startColumn": 17,
+                  "endLine": 69,
+                  "endColumn": 27,
+                  "charOffset": 1704,
+                  "charLength": 10
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "CE9308029B95A82B0402A78A3CBC6077728590A38412F157403A992CB5669BBA"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_GlowOffset'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 3
+                },
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 20,
+                  "endLine": 68,
+                  "endColumn": 31,
+                  "charOffset": 1647,
+                  "charLength": 11
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "2A2F0BFFF4DB6268A78FACB79756437386F63BE1F95FEB45BFD350F80B3DA436"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_GlowOuter'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 3
+                },
+                "region": {
+                  "startLine": 69,
+                  "startColumn": 30,
+                  "endLine": 69,
+                  "endColumn": 40,
+                  "charOffset": 1717,
+                  "charLength": 10
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "CE9308029B95A82B0402A78A3CBC6077728590A38412F157403A992CB5669BBA"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_GlowPower'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 3
+                },
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 23,
+                  "endLine": 71,
+                  "endColumn": 33,
+                  "charOffset": 1838,
+                  "charLength": 10
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "047E555E78B14AECA9FE758B89EB0399DBACB9160093FD5D4CF4E83CD0BB10F7"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_GradientScale'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/SDFFunctions.hlsl",
+                  "uriBaseId": "solutionDir",
+                  "index": 2
+                },
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 35,
+                  "endLine": 50,
+                  "endColumn": 49,
+                  "charOffset": 1572,
+                  "charLength": 14
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "F729C9C764B90368DF6D911021526582404B67A78B0F442F66A8E03D20E275E9"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_GradientScale'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 3
+                },
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 29,
+                  "endLine": 41,
+                  "endColumn": 43,
+                  "charOffset": 986,
+                  "charLength": 14
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "05D4030EB95DA110647ADC17CCD226B108C48D234901E2B0D3D11DFA525F0B5C"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_GradientScale'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Mobile.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 110,
+                  "startColumn": 35,
+                  "endLine": 110,
+                  "endColumn": 49,
+                  "charOffset": 3199,
+                  "charLength": 14
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "6E38E449DDE95BE1120CE4C4E6808A3DF1D7690027D202F12F303E3F4C6E4A95"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_GradientScale'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 31,
+                  "endLine": 23,
+                  "endColumn": 45,
+                  "charOffset": 633,
+                  "charLength": 14
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "0D81EF91F064CB1758E3F3C0249F2F58F481BB012BF45A3ED38612CCA6DA49EA"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_LightAngle'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/SDFFunctions.hlsl",
+                  "uriBaseId": "solutionDir",
+                  "index": 2
+                },
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 38,
+                  "endLine": 63,
+                  "endColumn": 49,
+                  "charOffset": 1929,
+                  "charLength": 11
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "56B5D8454F33667F0A0CA9405DE21169ABE4C64C5C39E91D61E82CEC371DC041"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_LightAngle'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/SDFFunctions.hlsl",
+                  "uriBaseId": "solutionDir",
+                  "index": 2
+                },
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 56,
+                  "endLine": 63,
+                  "endColumn": 67,
+                  "charOffset": 1947,
+                  "charLength": 11
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "56B5D8454F33667F0A0CA9405DE21169ABE4C64C5C39E91D61E82CEC371DC041"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_MainTex'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 3
+                },
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 21,
+                  "endLine": 52,
+                  "endColumn": 29,
+                  "charOffset": 1251,
+                  "charLength": 8
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "41CC56B68942B7170B00635C4A61B0CED11F30F46C45A61A46A570F81AB7B0D9"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_MainTex'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 3
+                },
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 11,
+                  "endLine": 53,
+                  "endColumn": 19,
+                  "charOffset": 1289,
+                  "charLength": 8
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "948CDDD1B57A4972FB202675DCD6B1AC1662A6E66933ABF72E2DCB374BED9470"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_MainTex'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 3
+                },
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 11,
+                  "endLine": 54,
+                  "endColumn": 19,
+                  "charOffset": 1327,
+                  "charLength": 8
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "043DBF3B4F600EE5AC2AB307B794B9F31FB80801ACADC34280E94AB513FDE597"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_MainTex'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 3
+                },
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 11,
+                  "endLine": 55,
+                  "endColumn": 19,
+                  "charOffset": 1365,
+                  "charLength": 8
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "1E2C37AD988E3C00A460C2DCD92CA74209E862FF4FB9284CCD15BD1FAB90E6FD"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_MainTex'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Mobile.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 106,
+                  "startColumn": 21,
+                  "endLine": 106,
+                  "endColumn": 29,
+                  "charOffset": 3010,
+                  "charLength": 8
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "E9BCA9E2D76CF789DE07D141D05409F6FC73565D6FEE4FD8F10B1B22F0970AD8"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_MainTex'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 18,
+                  "endLine": 44,
+                  "endColumn": 26,
+                  "charOffset": 1373,
+                  "charLength": 8
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "AF3C9EF66E9641CB4CCAC99A070786B6008C7FD2A35122D0ECB2880ABF6F4B20"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_OutlineColor'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Mobile.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 72,
+                  "startColumn": 27,
+                  "endLine": 72,
+                  "endColumn": 40,
+                  "charOffset": 1963,
+                  "charLength": 13
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "5924BC9EA48A9F74B551C5BE11CF587847F826286DA4C1B42BD2D2FDDABBBBE3"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_OutlineColor'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 24,
+                  "endLine": 51,
+                  "endColumn": 37,
+                  "charOffset": 1639,
+                  "charLength": 13
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "FCB3A5A7C1FCF9E6879340014846D4E0B42E06AA4F7955D137AB9F17AB932070"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_OutlineShininess'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 36,
+                  "endLine": 96,
+                  "endColumn": 53,
+                  "charOffset": 3425,
+                  "charLength": 17
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "019329B580310AE7FD953E8E69CA1CA2679F867D5BB65144AFB3258A03E60447"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_OutlineSoftness'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Mobile.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 118,
+                  "startColumn": 19,
+                  "endLine": 118,
+                  "endColumn": 35,
+                  "charOffset": 3517,
+                  "charLength": 16
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "1BF97183C659674E8FDA0F578247FCDE531F9FF7CBD7C413C99C05D5BECF4FE6"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_OutlineSoftness'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 19,
+                  "endLine": 47,
+                  "endColumn": 35,
+                  "charOffset": 1526,
+                  "charLength": 16
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "2C2711534C707A013A2548B310328434D4918BB1A814081AF4CE96A885445B6C"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_OutlineTex'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 24,
+                  "endLine": 55,
+                  "endColumn": 35,
+                  "charOffset": 1871,
+                  "charLength": 11
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "A4047AEF04285B3E3AF73DDA438A5F264C68C5E2A9367CB7EA1DF51C08896C0A"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_OutlineUVSpeedX'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 69,
+                  "endLine": 55,
+                  "endColumn": 85,
+                  "charOffset": 1916,
+                  "charLength": 16
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "A4047AEF04285B3E3AF73DDA438A5F264C68C5E2A9367CB7EA1DF51C08896C0A"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_OutlineUVSpeedY'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 122,
+                  "endLine": 55,
+                  "endColumn": 138,
+                  "charOffset": 1969,
+                  "charLength": 16
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "A4047AEF04285B3E3AF73DDA438A5F264C68C5E2A9367CB7EA1DF51C08896C0A"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_OutlineWidth'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 3
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 30,
+                  "endLine": 31,
+                  "endColumn": 43,
+                  "charOffset": 735,
+                  "charLength": 13
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "087D02234BED3DF0A24BAD360611E1757A846C98B431A6817CC05BEB68A91615"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_OutlineWidth'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Mobile.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 44,
+                  "endLine": 80,
+                  "endColumn": 57,
+                  "charOffset": 2262,
+                  "charLength": 13
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "B5AD7C90DA6C96B0CC207CCDE5243244E6177528822B35028D35280549AD495C"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_OutlineWidth'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 18,
+                  "endLine": 46,
+                  "endColumn": 31,
+                  "charOffset": 1472,
+                  "charLength": 13
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "63B70842B9AA9095E981E229C92A90CEFEDDCA8FB26A0CBDED7A6BB5A1EEF36F"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_PerspectiveFilter'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 28,
+                  "endLine": 24,
+                  "endColumn": 46,
+                  "charOffset": 695,
+                  "charLength": 18
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "826E99FD341745D55AAC9E90E60F31CB02CABB7081CFFC478EBEE33E9B7D7C7E"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_Reflectivity'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/SDFFunctions.hlsl",
+                  "uriBaseId": "solutionDir",
+                  "index": 2
+                },
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 40,
+                  "endLine": 21,
+                  "endColumn": 53,
+                  "charOffset": 525,
+                  "charLength": 13
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "958EAFA3AD4F1AF93529649D7D9D9F3301140D1F638C84C85C84A7520936925A"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_Reflectivity'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 3
+                },
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 40,
+                  "endLine": 62,
+                  "endColumn": 53,
+                  "charOffset": 1513,
+                  "charLength": 13
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "958EAFA3AD4F1AF93529649D7D9D9F3301140D1F638C84C85C84A7520936925A"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_ScaleRatioA'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Mobile.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 39,
+                  "endLine": 53,
+                  "endColumn": 51,
+                  "charOffset": 1401,
+                  "charLength": 12
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "86A433770C0435852125011AC5DBBEFBBDB0778BCE2764B711E99346007612C5"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_ScaleRatioA'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Mobile.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 60,
+                  "endLine": 80,
+                  "endColumn": 72,
+                  "charOffset": 2278,
+                  "charLength": 12
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "B5AD7C90DA6C96B0CC207CCDE5243244E6177528822B35028D35280549AD495C"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_ScaleRatioA'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Mobile.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 118,
+                  "startColumn": 38,
+                  "endLine": 118,
+                  "endColumn": 50,
+                  "charOffset": 3536,
+                  "charLength": 12
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "1BF97183C659674E8FDA0F578247FCDE531F9FF7CBD7C413C99C05D5BECF4FE6"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_ScaleRatioA'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 80,
+                  "endLine": 28,
+                  "endColumn": 92,
+                  "charOffset": 920,
+                  "charLength": 12
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "E0FB9376B82E8363456ACB39324819A41ABA0878CE9EFD547F544B283B024291"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_ScaleRatioA'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 32,
+                  "endLine": 46,
+                  "endColumn": 44,
+                  "charOffset": 1486,
+                  "charLength": 12
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "63B70842B9AA9095E981E229C92A90CEFEDDCA8FB26A0CBDED7A6BB5A1EEF36F"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_ScaleRatioA'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 36,
+                  "endLine": 47,
+                  "endColumn": 48,
+                  "charOffset": 1543,
+                  "charLength": 12
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "2C2711534C707A013A2548B310328434D4918BB1A814081AF4CE96A885445B6C"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_ScaleRatioB'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 3
+                },
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 32,
+                  "endLine": 68,
+                  "endColumn": 44,
+                  "charOffset": 1659,
+                  "charLength": 12
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "2A2F0BFFF4DB6268A78FACB79756437386F63BE1F95FEB45BFD350F80B3DA436"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_ScaleRatioB'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 3
+                },
+                "region": {
+                  "startLine": 69,
+                  "startColumn": 43,
+                  "endLine": 69,
+                  "endColumn": 55,
+                  "charOffset": 1730,
+                  "charLength": 12
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "CE9308029B95A82B0402A78A3CBC6077728590A38412F157403A992CB5669BBA"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_ScaleX'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 22,
+                  "endLine": 21,
+                  "endColumn": 29,
+                  "charOffset": 485,
+                  "charLength": 7
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "CF1FB9D2F729DC74D44FF322D557303FCF9C61F68FCC49DF516D1D54073FDB6B"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_ScaleY'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 31,
+                  "endLine": 21,
+                  "endColumn": 38,
+                  "charOffset": 494,
+                  "charLength": 7
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "CF1FB9D2F729DC74D44FF322D557303FCF9C61F68FCC49DF516D1D54073FDB6B"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_ScreenParams'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 72,
+                  "endLine": 21,
+                  "endColumn": 85,
+                  "charOffset": 535,
+                  "charLength": 13
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "CF1FB9D2F729DC74D44FF322D557303FCF9C61F68FCC49DF516D1D54073FDB6B"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_ShaderFlags'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 3
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 34,
+                  "endLine": 27,
+                  "endColumn": 46,
+                  "charOffset": 660,
+                  "charLength": 12
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "58CE251BEE59C25BCDB0E71373C8D589571E0F1586562FCBC0357684DEF81F7A"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_Sharpness'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Mobile.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 110,
+                  "startColumn": 53,
+                  "endLine": 110,
+                  "endColumn": 63,
+                  "charOffset": 3217,
+                  "charLength": 10
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "6E38E449DDE95BE1120CE4C4E6808A3DF1D7690027D202F12F303E3F4C6E4A95"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_Sharpness'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 49,
+                  "endLine": 23,
+                  "endColumn": 59,
+                  "charOffset": 651,
+                  "charLength": 10
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "0D81EF91F064CB1758E3F3C0249F2F58F481BB012BF45A3ED38612CCA6DA49EA"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_SpecularColor'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/SDFFunctions.hlsl",
+                  "uriBaseId": "solutionDir",
+                  "index": 2
+                },
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 9,
+                  "endLine": 22,
+                  "endColumn": 23,
+                  "charOffset": 549,
+                  "charLength": 14
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "6791FB97A2DA452FD125654DCC242D555909E72B668C9FE2DEAC8CA290866F8B"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_SpecularColor'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 3
+                },
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 9,
+                  "endLine": 63,
+                  "endColumn": 23,
+                  "charOffset": 1537,
+                  "charLength": 14
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "6791FB97A2DA452FD125654DCC242D555909E72B668C9FE2DEAC8CA290866F8B"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_SpecularPower'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/SDFFunctions.hlsl",
+                  "uriBaseId": "solutionDir",
+                  "index": 2
+                },
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 37,
+                  "endLine": 22,
+                  "endColumn": 51,
+                  "charOffset": 577,
+                  "charLength": 14
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "6791FB97A2DA452FD125654DCC242D555909E72B668C9FE2DEAC8CA290866F8B"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_SpecularPower'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 3
+                },
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 37,
+                  "endLine": 63,
+                  "endColumn": 51,
+                  "charOffset": 1565,
+                  "charLength": 14
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "6791FB97A2DA452FD125654DCC242D555909E72B668C9FE2DEAC8CA290866F8B"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_TextureHeight'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Mobile.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 109,
+                  "startColumn": 18,
+                  "endLine": 109,
+                  "endColumn": 32,
+                  "charOffset": 3142,
+                  "charLength": 14
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "515C4E540220982D3037826E888C45188CFE8132F1DE00B9EEC5B5A6B95A28B3"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_Time'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/SDFFunctions.hlsl",
+                  "uriBaseId": "solutionDir",
+                  "index": 2
+                },
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 60,
+                  "endLine": 82,
+                  "endColumn": 65,
+                  "charOffset": 2598,
+                  "charLength": 5
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "049DA3D4C54290F7A6D56A1B98C6E5F0A47CA93C82CEABCEA530ACF93E4FF167"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_Time'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 76,
+                  "endLine": 54,
+                  "endColumn": 81,
+                  "charOffset": 1790,
+                  "charLength": 5
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "6DEDEB82B483F734B26065A5F99482E3089054ADA8B7737715993850241D1E39"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_Time'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 123,
+                  "endLine": 54,
+                  "endColumn": 128,
+                  "charOffset": 1837,
+                  "charLength": 5
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "6DEDEB82B483F734B26065A5F99482E3089054ADA8B7737715993850241D1E39"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_Time'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 88,
+                  "endLine": 55,
+                  "endColumn": 93,
+                  "charOffset": 1935,
+                  "charLength": 5
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "A4047AEF04285B3E3AF73DDA438A5F264C68C5E2A9367CB7EA1DF51C08896C0A"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_Time'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 141,
+                  "endLine": 55,
+                  "endColumn": 146,
+                  "charOffset": 1988,
+                  "charLength": 5
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "A4047AEF04285B3E3AF73DDA438A5F264C68C5E2A9367CB7EA1DF51C08896C0A"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_VertexOffsetX'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Mobile.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 15,
+                  "endLine": 47,
+                  "endColumn": 29,
+                  "charOffset": 1199,
+                  "charLength": 14
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "B3C6292D8D3BA70349209F1EE4CDEB7653D106914369D1788F6F9804232CB3A0"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_VertexOffsetX'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 16,
+                  "endLine": 3,
+                  "endColumn": 30,
+                  "charOffset": 71,
+                  "charLength": 14
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "E32AEFDB6F6E8C5C826198842ECC0DB3AAEAE6A8C07C9F78A804E077E8EB5441"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_VertexOffsetY'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Mobile.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 15,
+                  "endLine": 48,
+                  "endColumn": 29,
+                  "charOffset": 1229,
+                  "charLength": 14
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "D33FBBA637920B5B9B2C267D467438EAE41C069845893D829B4B4F31C3F690DA"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_VertexOffsetY'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 16,
+                  "endLine": 4,
+                  "endColumn": 30,
+                  "charOffset": 102,
+                  "charLength": 14
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "0E0AB4CC98BD82D697C0D8B36112227A793A85A2A659A35A9FF2C2DDDF6C3B91"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_WeightBold'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Mobile.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 40,
+                  "endLine": 52,
+                  "endColumn": 51,
+                  "charOffset": 1337,
+                  "charLength": 11
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "5214E4F71EB4554CB2B4BB9F90CA62B2EB78B1A32ACDE3370C71E1121B67F881"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_WeightBold'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 38,
+                  "endLine": 28,
+                  "endColumn": 49,
+                  "charOffset": 878,
+                  "charLength": 11
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "E0FB9376B82E8363456ACB39324819A41ABA0878CE9EFD547F544B283B024291"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_WeightNormal'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Mobile.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 25,
+                  "endLine": 52,
+                  "endColumn": 38,
+                  "charOffset": 1322,
+                  "charLength": 13
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "5214E4F71EB4554CB2B4BB9F90CA62B2EB78B1A32ACDE3370C71E1121B67F881"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol '_WeightNormal'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 23,
+                  "endLine": 28,
+                  "endColumn": 36,
+                  "charOffset": 863,
+                  "charLength": 13
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "E0FB9376B82E8363456ACB39324819A41ABA0878CE9EFD547F544B283B024291"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'appdata_full'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 23,
+                  "endLine": 1,
+                  "endColumn": 35,
+                  "charOffset": 22,
+                  "charLength": 12
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "A459486BACC958317D27AE14A62F086EC3688F6B8C617787405F283F9A6DF169"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'fixed4'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 3
+                },
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 1,
+                  "endLine": 10,
+                  "endColumn": 7,
+                  "charOffset": 143,
+                  "charLength": 6
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "A70FF97F20BC2AFF065B7AC60318E60B688C88C92C0FC9409E54A3A1A3499CD0"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'fixed4'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 3
+                },
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 25,
+                  "endLine": 10,
+                  "endColumn": 31,
+                  "charOffset": 167,
+                  "charLength": 6
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "A70FF97F20BC2AFF065B7AC60318E60B688C88C92C0FC9409E54A3A1A3499CD0"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'fixed4'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 3
+                },
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 43,
+                  "endLine": 10,
+                  "endColumn": 49,
+                  "charOffset": 185,
+                  "charLength": 6
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "A70FF97F20BC2AFF065B7AC60318E60B688C88C92C0FC9409E54A3A1A3499CD0"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'fixed4'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Properties.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 4
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 9,
+                  "endLine": 5,
+                  "endColumn": 15,
+                  "charOffset": 153,
+                  "charLength": 6
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "1FD01466A996430D460ADEB8789162EB7E737D57DAE85CB986CE269BBC72AC23"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'fixed4'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Properties.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 4
+                },
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 9,
+                  "endLine": 12,
+                  "endColumn": 15,
+                  "charOffset": 428,
+                  "charLength": 6
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "885A9F5891E850205068302BDDFD520E80F9DFC59D520BFB9E6438A32EA6CAC7"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'fixed4'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Properties.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 4
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 9,
+                  "endLine": 26,
+                  "endColumn": 15,
+                  "charOffset": 937,
+                  "charLength": 6
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "406E261ABE46005FAE9EAD8C7A2644A9DDF909D49829753B121E0B40F1C0A762"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'fixed4'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Properties.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 4
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 9,
+                  "endLine": 27,
+                  "endColumn": 15,
+                  "charOffset": 992,
+                  "charLength": 6
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "E2071C2F89471C536E1A54F4FC151F0E73EF16F82F6C89249882FFA650C82356"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'fixed4'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Properties.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 4
+                },
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 9,
+                  "endLine": 33,
+                  "endColumn": 15,
+                  "charOffset": 1188,
+                  "charLength": 6
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "A5D3D78FDEB541D66F2493FDFE43657E7CBDC3110E9EB029BD7EE5436AF40839"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'fixed4'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Properties.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 4
+                },
+                "region": {
+                  "startLine": 40,
+                  "startColumn": 9,
+                  "endLine": 40,
+                  "endColumn": 15,
+                  "charOffset": 1459,
+                  "charLength": 6
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "EADEC6B7787B0526163F54583140E436DC56E0B8B0E1DE82232FAC8438FEEBDF"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'fixed4'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Properties.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 4
+                },
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 9,
+                  "endLine": 46,
+                  "endColumn": 15,
+                  "charOffset": 1709,
+                  "charLength": 6
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "FB89031C0A9702FCB756755A5B7C6498BC611992BC2EC3E1532E9F621B876032"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "warning",
+          "message": {
+            "text": "Cannot resolve symbol 'texture2D'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/SDFFunctions.hlsl",
+                  "uriBaseId": "solutionDir",
+                  "index": 2
+                },
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 29,
+                  "endLine": 25,
+                  "endColumn": 38,
+                  "charOffset": 624,
+                  "charLength": 9
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "AA32F58141FB6117DBDB4A58C7EDDEA9CAE71C5AA7E34C71E1943EAC71CD5570"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "error",
+          "message": {
+            "text": "Expected ';'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Mobile.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 31,
+                  "endLine": 15,
+                  "endColumn": 1,
+                  "charOffset": 300,
+                  "charLength": 1
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "28A1A71208A931E6A820757CA9BE2EC9142A1FE0893FAC818DB01E63E97115F6"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": ".CppCompilerErrors",
+          "ruleIndex": 5,
+          "level": "error",
+          "message": {
+            "text": "Expected a declaration"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Mobile.cginc",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 5,
+                  "endLine": 3,
+                  "endColumn": 35,
+                  "charOffset": 22,
+                  "charLength": 30
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "5E4FAD2636BA6A05785B02D8F6B8697E32C568DD094367B6DAD786E179F313ED"
+          },
+          "properties": {
+            "tags": ["Cpp",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": "CSharpWarnings::CS0108,CS0114",
+          "ruleIndex": 0,
+          "level": "warning",
+          "message": {
+            "text": "The keyword 'new' is required on 'particleSystem' because it hides property 'Component UnityEngine.Component.particleSystem'"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/Scripts/View/ClickEffectView.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 5
+                },
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 41,
+                  "endLine": 12,
+                  "endColumn": 55,
+                  "charOffset": 513,
+                  "charLength": 14
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "B04DBBFB1B4A8BF34C65FE85494BEAB1D012B88C1C18E4C3F84E361F58C0D0C2"
+          },
+          "properties": {
+            "tags": ["C#",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": "ClassNeverInstantiated.Global",
+          "ruleIndex": 1,
+          "level": "note",
+          "message": {
+            "text": "Class 'ClickService' is never instantiated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/Scripts/Service/ClickService.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 6
+                },
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 25,
+                  "endLine": 7,
+                  "endColumn": 37,
+                  "charOffset": 101,
+                  "charLength": 12
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "8A5771C2CF606EEEA2B426122DDA0ADD29B450BC7ABD09EA218786517BA2F03F"
+          },
+          "properties": {
+            "tags": ["C#",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": "ClassNeverInstantiated.Global",
+          "ruleIndex": 1,
+          "level": "note",
+          "message": {
+            "text": "Class 'CoinService' is never instantiated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/Scripts/Service/CoinService.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 7
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 25,
+                  "endLine": 5,
+                  "endColumn": 36,
+                  "charOffset": 58,
+                  "charLength": 11
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "0D15A048FBD576D4DE8B41040546945DABF09AA2937A3F82D3ADFEFE3D75A1CD"
+          },
+          "properties": {
+            "tags": ["C#",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": "ClassNeverInstantiated.Global",
+          "ruleIndex": 1,
+          "level": "note",
+          "message": {
+            "text": "Class 'DebtService' is never instantiated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/Scripts/Service/DebtService.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 8
+                },
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 25,
+                  "endLine": 3,
+                  "endColumn": 36,
+                  "charOffset": 44,
+                  "charLength": 11
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "D5B4C7DFC32426896D804849EB06F8FAD2058103152D854F1B98C5A2A786A76F"
+          },
+          "properties": {
+            "tags": ["C#",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": "ClassNeverInstantiated.Global",
+          "ruleIndex": 1,
+          "level": "note",
+          "message": {
+            "text": "Class 'EditorAnalytics' is never instantiated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/Scripts/Service/EditorAnalytics.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 9
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 25,
+                  "endLine": 5,
+                  "endColumn": 40,
+                  "charOffset": 64,
+                  "charLength": 15
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "B44795A420F48B2EBF90CCA2E8F3870B25B2168BD42559EA76CB1D4066CA3FB1"
+          },
+          "properties": {
+            "tags": ["C#",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": "ClassNeverInstantiated.Global",
+          "ruleIndex": 1,
+          "level": "note",
+          "message": {
+            "text": "Class 'EntryPointManager' is never instantiated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/Scripts/Manager/EntryPointManager.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 10
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 25,
+                  "endLine": 5,
+                  "endColumn": 42,
+                  "charOffset": 60,
+                  "charLength": 17
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "6D663B6E9F10FFCEDA8289B330040BAF019212F8CE1C10861A9D73025970CF6B"
+          },
+          "properties": {
+            "tags": ["C#",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": "ClassNeverInstantiated.Global",
+          "ruleIndex": 1,
+          "level": "note",
+          "message": {
+            "text": "Class 'EntryPointStarter' is never instantiated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/Scripts/Starter/EntryPointStarter.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 11
+                },
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 25,
+                  "endLine": 9,
+                  "endColumn": 42,
+                  "charOffset": 135,
+                  "charLength": 17
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "33FE2BCAFDBB3FB9D921FE710F7F1374D0BBEE87135017109D80410054FDF60A"
+          },
+          "properties": {
+            "tags": ["C#",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": "ClassNeverInstantiated.Global",
+          "ruleIndex": 1,
+          "level": "note",
+          "message": {
+            "text": "Class 'GamePresenter' is never instantiated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/tutorial/GamePresenter.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 12
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 18,
+                  "endLine": 5,
+                  "endColumn": 31,
+                  "charOffset": 63,
+                  "charLength": 13
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "CC417CA41C0BBAB0356D8A705BD6ED343D3E69F9E5D6D56637BBCFC900FDD63D"
+          },
+          "properties": {
+            "tags": ["C#",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": "ClassNeverInstantiated.Global",
+          "ruleIndex": 1,
+          "level": "note",
+          "message": {
+            "text": "Class 'GameStateSerializer' is never instantiated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/Scripts/Service/GameStateSerializer.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 13
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 25,
+                  "endLine": 6,
+                  "endColumn": 44,
+                  "charOffset": 77,
+                  "charLength": 19
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "0C1FB46F90154DE4636E0D39F4B48B9C51ED0010DA75CC3F954B157964A9612A"
+          },
+          "properties": {
+            "tags": ["C#",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": "ClassNeverInstantiated.Global",
+          "ruleIndex": 1,
+          "level": "note",
+          "message": {
+            "text": "Class 'HelloWorldService' is never instantiated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/tutorial/HelloWorldService.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 14
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 18,
+                  "endLine": 5,
+                  "endColumn": 35,
+                  "charOffset": 58,
+                  "charLength": 17
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "A527BBF624F3F359AEF3EF25B4A245FC74D199342759263B188C8672B4622764"
+          },
+          "properties": {
+            "tags": ["C#",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": "ClassNeverInstantiated.Global",
+          "ruleIndex": 1,
+          "level": "note",
+          "message": {
+            "text": "Class 'RuntimeAnalytics' is never instantiated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/Scripts/Service/RuntimeAnalytics.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 15
+                },
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 25,
+                  "endLine": 3,
+                  "endColumn": 41,
+                  "charOffset": 44,
+                  "charLength": 16
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "E2BE57B654D9A7300281A0C576FE189AB1950496081D7196DE3F61B85C6785F9"
+          },
+          "properties": {
+            "tags": ["C#",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": "ClassNeverInstantiated.Global",
+          "ruleIndex": 1,
+          "level": "note",
+          "message": {
+            "text": "Class 'SampleSceneStarter' is never instantiated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/Scripts/Starter/SampleSceneStarter.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 16
+                },
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 25,
+                  "endLine": 3,
+                  "endColumn": 43,
+                  "charOffset": 44,
+                  "charLength": 18
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "99673C5E4653400AC01D444E56385D185DCD79754B144BE3230E0AEF5A937480"
+          },
+          "properties": {
+            "tags": ["C#",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": "ClassNeverInstantiated.Global",
+          "ruleIndex": 1,
+          "level": "note",
+          "message": {
+            "text": "Class 'SceneLoader' is never instantiated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/Scripts/Service/SceneLoader.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 17
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 25,
+                  "endLine": 5,
+                  "endColumn": 36,
+                  "charOffset": 80,
+                  "charLength": 11
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "0D23FBBDF5B21BFC750302D92166D8C6C2680BC2E8551859524AC08455D44141"
+          },
+          "properties": {
+            "tags": ["C#",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": "ClassNeverInstantiated.Global",
+          "ruleIndex": 1,
+          "level": "note",
+          "message": {
+            "text": "Class 'UpgradeService' is never instantiated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/Scripts/Service/UpgradeService.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 18
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 25,
+                  "endLine": 5,
+                  "endColumn": 39,
+                  "charOffset": 58,
+                  "charLength": 14
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "F3D66CF316351715EF6BB0E8601049D8CF9050A1CA3A04F9AE32296288DA0C44"
+          },
+          "properties": {
+            "tags": ["C#",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": "MISMATCHED_ASMDEF_FILENAME",
+          "ruleIndex": 2,
+          "level": "note",
+          "message": {
+            "text": "File name should match the name of the assembly"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/Scripts/Service/Sample.Service.asmdef",
+                  "uriBaseId": "solutionDir",
+                  "index": 19
+                },
+                "region": {
+                  "startLine": 2,
+                  "startColumn": 14,
+                  "endLine": 2,
+                  "endColumn": 29,
+                  "charOffset": 15,
+                  "charLength": 15
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "E69C579388DC03C028656FB2F224DB8572DE53D265A95863158C53482540537C"
+          },
+          "properties": {
+            "tags": ["Assembly Definition (Unity)",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 3,
+          "level": "note",
+          "message": {
+            "text": "Method 'Init' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/Scripts/Starter/EntryPointStarter.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 11
+                },
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 21,
+                  "endLine": 15,
+                  "endColumn": 25,
+                  "charOffset": 273,
+                  "charLength": 4
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "BA5BE5E6C5AFE17B6BCAB304A23DE57C8FF5E8FDF1371EF7F6F8BC2E7F194F44"
+          },
+          "properties": {
+            "tags": ["C#",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 3,
+          "level": "note",
+          "message": {
+            "text": "Method 'Init' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/Scripts/View/ClickButtonView.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 20
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 21,
+                  "endLine": 19,
+                  "endColumn": 25,
+                  "charOffset": 416,
+                  "charLength": 4
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "5911B1CD17F0BF32DE08AD2537D0AF627DB8BBC151EE91DA150BED122CC00748"
+          },
+          "properties": {
+            "tags": ["C#",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 3,
+          "level": "note",
+          "message": {
+            "text": "Method 'Init' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/Scripts/View/ClickTextView.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 21
+                },
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 21,
+                  "endLine": 16,
+                  "endColumn": 25,
+                  "charOffset": 299,
+                  "charLength": 4
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "9EBD3701392B8B0D126A4751BC6DF20F7CEFD39A1C655848586EEC3826BBF8BC"
+          },
+          "properties": {
+            "tags": ["C#",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 3,
+          "level": "note",
+          "message": {
+            "text": "Method 'Init' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/Scripts/View/CoinsView.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 22
+                },
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 21,
+                  "endLine": 21,
+                  "endColumn": 25,
+                  "charOffset": 376,
+                  "charLength": 4
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "4655FD6D5DB568E460E6CC7B6D1685F44430B623E7AB2900095D06DFBE781BDD"
+          },
+          "properties": {
+            "tags": ["C#",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 3,
+          "level": "note",
+          "message": {
+            "text": "Method 'Init' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/Scripts/View/OverdraftButtonView.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 23
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 21,
+                  "endLine": 29,
+                  "endColumn": 25,
+                  "charOffset": 596,
+                  "charLength": 4
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "95F8AA5428620ACBE412D08E0EBAFE457F0FE0C77C7F94AA19AF21761690638B"
+          },
+          "properties": {
+            "tags": ["C#",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 3,
+          "level": "note",
+          "message": {
+            "text": "Method 'Init' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/Scripts/View/UpgradeButtonView.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 24
+                },
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 21,
+                  "endLine": 15,
+                  "endColumn": 25,
+                  "charOffset": 290,
+                  "charLength": 4
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "BD22D65F9615DD673CCC6AC7833AAB3430561B6F52DC7F030B3DBF41BA11DDE4"
+          },
+          "properties": {
+            "tags": ["C#",".NETFramework 4.7.1"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Local",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Method 'Init' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Assets/Scripts/View/UpgradeWindow.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 25
+                },
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 14,
+                  "endLine": 25,
+                  "endColumn": 18,
+                  "charOffset": 546,
+                  "charLength": 4
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "E0665C007D0C5E207CB72DB23D7F6C9FFE9E0A92AD014C0196263202F8D8301A"
+          },
+          "properties": {
+            "tags": ["C#",".NETFramework 4.7.1"]
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "InspectCode",
+          "organization": "JetBrains, Inc",
+          "fullName": "JetBrains Inspect Code 2025.2.3",
+          "semanticVersion": "252.0.20251001.232050",
+          "informationUri": "http://www.jetbrains.com/resharper/features/command-line.html",
+          "rules": [
+            {
+              "id": "CSharpWarnings::CS0108,CS0114",
+              "help": {
+                "text": "https://www.jetbrains.com/help/resharper/CSharpWarnings_CS0108_CS0114.html"
+              },
+              "shortDescription": {
+                "text": "Keyword 'new' is required"
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              },
+              "helpUri": "https://www.jetbrains.com/help/resharper/CSharpWarnings_CS0108_CS0114.html",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.CompilerWarnings",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ClassNeverInstantiated.Global",
+              "fullDescription": {
+                "text": "Non-static class is never instantiated"
+              },
+              "help": {
+                "text": "https://www.jetbrains.com/help/resharper/ClassNeverInstantiated.Global.html"
+              },
+              "shortDescription": {
+                "text": "Class is never instantiated: Non-private accessibility"
+              },
+              "defaultConfiguration": {
+                "level": "note"
+              },
+              "helpUri": "https://www.jetbrains.com/help/resharper/ClassNeverInstantiated.Global.html",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.CodeSmell",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "VBASIC.CodeSmell",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "MISMATCHED_ASMDEF_FILENAME",
+              "fullDescription": {
+                "text": "To avoid confusion, the name of the assembly definition file should match the name of the assembly being defined."
+              },
+              "shortDescription": {
+                "text": "File name should match the name of the assembly"
+              },
+              "defaultConfiguration": {
+                "level": "note"
+              },
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.UNITY",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "UnusedMember.Global",
+              "fullDescription": {
+                "text": "Type member is never used"
+              },
+              "help": {
+                "text": "https://www.jetbrains.com/help/resharper/UnusedMember.Global.html"
+              },
+              "shortDescription": {
+                "text": "Type member is never used: Non-private accessibility"
+              },
+              "defaultConfiguration": {
+                "level": "note"
+              },
+              "helpUri": "https://www.jetbrains.com/help/resharper/UnusedMember.Global.html",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "VBASIC.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "XAML.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "ASXX.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "ASPX.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "UnusedMember.Local",
+              "fullDescription": {
+                "text": "Type member is never used"
+              },
+              "help": {
+                "text": "https://www.jetbrains.com/help/resharper/UnusedMember.Local.html"
+              },
+              "shortDescription": {
+                "text": "Type member is never used: Private accessibility"
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              },
+              "helpUri": "https://www.jetbrains.com/help/resharper/UnusedMember.Local.html",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "VBASIC.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "XAML.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": ".CppCompilerErrors"
+            }
+          ],
+          "taxa": [
+            {
+              "id": ".CppCompilerErrors",
+              "name": "C++ Compiler Errors",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CPP",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ASPX",
+              "name": "Aspx"
+            },
+            {
+              "id": "ASPX.DeclarationRedundancy",
+              "name": "Redundancies in Symbol Declarations",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "ASPX",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ASXX",
+              "name": "HttpHandler or WebService"
+            },
+            {
+              "id": "ASXX.DeclarationRedundancy",
+              "name": "Redundancies in Symbol Declarations",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "ASXX",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "CPP",
+              "name": "C/C++"
+            },
+            {
+              "id": "CSHARP",
+              "name": "C#"
+            },
+            {
+              "id": "CSHARP.CodeSmell",
+              "name": "Potential Code Quality Issues",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "CSHARP.CompilerWarnings",
+              "name": "Compiler Warnings",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "CSHARP.DeclarationRedundancy",
+              "name": "Redundancies in Symbol Declarations",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "CSHARP.UNITY",
+              "name": "Unity",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "VBASIC",
+              "name": "VB.NET"
+            },
+            {
+              "id": "VBASIC.CodeSmell",
+              "name": "Potential Code Quality Issues",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "VBASIC",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "VBASIC.DeclarationRedundancy",
+              "name": "Redundancies in Symbol Declarations",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "VBASIC",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "XAML",
+              "name": "XAML"
+            },
+            {
+              "id": "XAML.DeclarationRedundancy",
+              "name": "Redundancies in Symbol Declarations",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "XAML",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "versionControlProvenance": [
+        {
+          "repositoryUri": "https://github.com/r55r/VContainerSample.git",
+          "revisionId": "4c66ab4718e2fcf7b9ddf9d4c9ed10828e0e5d5a",
+          "branch": "main",
+          "mappedTo": {
+            "uriBaseId": "solutionDir"
+          }
+        }
+      ],
+      "originalUriBaseIds": {
+        "solutionDir": {
+          "uri": "file:///Users/takao-ryota/Documents/Github/VContainerSample/",
+          "description": {
+            "text": "Solution Directory"
+          }
+        }
+      },
+      "artifacts": [
+        {
+          "location": {
+            "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Mobile.cginc",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "3B81A133B9D0E66B67AF0B219C2AA866",
+            "sha-1": "D3048ED81F8EA7C48FC0F25EE1820312EAB01213",
+            "sha-256": "D9D43DDD9810476162F21B42477D9CE2CDC4E6CC7571D354C3253AAFC6673EAD"
+          }
+        },
+        {
+          "location": {
+            "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Surface.cginc",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "5B602758C5D3BF6AA7936DE4A15AAA39",
+            "sha-1": "3A29FDB9652BA78EB6504DE0B2C6F4446DFEF6DB",
+            "sha-256": "244B442520282A66363D121C8D2AEEB30BB1E72CBBADBF41CE68D9100322ADE5"
+          }
+        },
+        {
+          "location": {
+            "uri": "Assets/TextMesh%20Pro/Shaders/SDFFunctions.hlsl",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "78F752DAC67F624D619B61E4A1698098",
+            "sha-1": "CAED54F911E62ED06A6A830E68B37249CD303BB1",
+            "sha-256": "88CF0F62E4000B71750C059D0886B19504CD1CF10F39BB61DDC11B77A882D417"
+          }
+        },
+        {
+          "location": {
+            "uri": "Assets/TextMesh%20Pro/Shaders/TMPro.cginc",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "9C521B1514957AE9616B18D9BA3878F7",
+            "sha-1": "335E02DFC6723955C5F5FF55C6C2D717FD540381",
+            "sha-256": "14EDB7D7B88CAF2B82CAE68200ABE895E5B5B3474C3FFFBF0E9B4B09A4E2467E"
+          }
+        },
+        {
+          "location": {
+            "uri": "Assets/TextMesh%20Pro/Shaders/TMPro_Properties.cginc",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "96D1658E5F9FA0E199E3BACF9DB99950",
+            "sha-1": "C6202C6C51A88C0425B8C7BFF5752A2DCA93A535",
+            "sha-256": "66DB1F03E8D7A413EBA79BCB6602FDB2DE710B586F34A6F2584ED6F68F028E90"
+          }
+        },
+        {
+          "location": {
+            "uri": "Assets/Scripts/View/ClickEffectView.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "AD7528ED9CA65DA3F3E6BDEE0E2DA829",
+            "sha-1": "9E54881EABB0CC711DAAC1ACA27E797142AE4DEE",
+            "sha-256": "209BA16CD3658BA0FE26FBF4FF18879659F9F144B28F5D59902B8D09E51CD02E"
+          }
+        },
+        {
+          "location": {
+            "uri": "Assets/Scripts/Service/ClickService.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "2DA1D14F5943A1020C844A2F62946043",
+            "sha-1": "254DBB137D734D277658A41766C94257EC2D2572",
+            "sha-256": "855D2A55F77769CAD1A0176038FA6BC90F289AA07772A497C3BFF838D2881012"
+          }
+        },
+        {
+          "location": {
+            "uri": "Assets/Scripts/Service/CoinService.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "E02E7699FFB0A9A4D3FA8EEE3041F44F",
+            "sha-1": "9E4A11EA8A4F732E7BDC42576861A5B9C6E75833",
+            "sha-256": "20139141C1F98A043747E88FBB4AD1FC42408E7C28B6F99E0DAAF53BB96A9404"
+          }
+        },
+        {
+          "location": {
+            "uri": "Assets/Scripts/Service/DebtService.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "1E8633A73F65DE1E46DEE1E50B352EC4",
+            "sha-1": "164B526C2C062224F80351E6CB4B9F000EC8BE75",
+            "sha-256": "3B7938E61BAEB73369BE758AC495B5B075FECB6B37C20D73B17FF472337F7F4F"
+          }
+        },
+        {
+          "location": {
+            "uri": "Assets/Scripts/Service/EditorAnalytics.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "C87EA2258A1BBC8F7345C34BB72ED63B",
+            "sha-1": "47B53222860B52EB3984D196EA0480B210DC12BF",
+            "sha-256": "63D7544C4D3C6B1BF2E7CEBAA6182A8435A366F8F8FCB7452661340F72C7FCB8"
+          }
+        },
+        {
+          "location": {
+            "uri": "Assets/Scripts/Manager/EntryPointManager.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "2E57A12BF72454D975E5DB63071D52EB",
+            "sha-1": "24BE41D06495927B470D839A05CEA1E9422779D0",
+            "sha-256": "267BC4ACE62173DBD26110292A477DD38724BF58970BCB1CFA262867A390A4F6"
+          }
+        },
+        {
+          "location": {
+            "uri": "Assets/Scripts/Starter/EntryPointStarter.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "7A91A9F3064FF934D7817BBDD2706BFF",
+            "sha-1": "2FEC19F3AC8EB7637BC66CF3D56512619DF98744",
+            "sha-256": "0C6C1C83040C11E929191C61A968836B1961E78726C267EAF4BE11F844A26B71"
+          }
+        },
+        {
+          "location": {
+            "uri": "Assets/tutorial/GamePresenter.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "D1DFE17B9CC12110EE25DCA03E4C5137",
+            "sha-1": "EE518EA051462EC0CE5D83C1F298707FFA5B0D3E",
+            "sha-256": "50CFDBA3FFA149D21B6518ACF2E53986AA98FE716D57C4005E9489B5BE859EE8"
+          }
+        },
+        {
+          "location": {
+            "uri": "Assets/Scripts/Service/GameStateSerializer.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "6B2528990CAD842DFB607A58079C0821",
+            "sha-1": "759CC8720B3DBF9D1D77E9DF8AF74A0DB63F7183",
+            "sha-256": "0A441D60400BA8D59E192272DC0ABBE12FC6A10C20C1768013BB9DCF8C24A2E1"
+          }
+        },
+        {
+          "location": {
+            "uri": "Assets/tutorial/HelloWorldService.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "A3026EC1E898DB642770232843A1E879",
+            "sha-1": "3501A183F95FAC0DC17FFF68083C9D15BDC9B1F3",
+            "sha-256": "D3A5C9CC9970AFE34EFA0ADF9141D9537E52B180ECC6FAD034C2EDC0127586DF"
+          }
+        },
+        {
+          "location": {
+            "uri": "Assets/Scripts/Service/RuntimeAnalytics.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "FE9843099A533F99DEB32251ED1E916D",
+            "sha-1": "302BAC6DDB38EB30772B7920A7B56302983A099D",
+            "sha-256": "D5B5E3D52F860DC9562D15F224567C0D26C6A449D428BBBE314A65F5D2E16591"
+          }
+        },
+        {
+          "location": {
+            "uri": "Assets/Scripts/Starter/SampleSceneStarter.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "EFA6251F4252B7C99C74B027342EF7B4",
+            "sha-1": "B24344747089824FBDD295A1C7C5967ED91D6366",
+            "sha-256": "F3B45AC4EC9BD84FFF187F3E84ACF0EC79EAC25F6E9C9B11F0FF17A54EC084D2"
+          }
+        },
+        {
+          "location": {
+            "uri": "Assets/Scripts/Service/SceneLoader.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "9821FB60E5CAFA4D944655B0A56567BA",
+            "sha-1": "0F25D035A7CA24BFEB1D1294C2F6086235E3012D",
+            "sha-256": "C707A7C943DF855D586D85B2F5603A0ED6C7052B9F995ED9CF913EAAE5EC8981"
+          }
+        },
+        {
+          "location": {
+            "uri": "Assets/Scripts/Service/UpgradeService.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "90710209BB2E26EA440259DDAFE15F4F",
+            "sha-1": "29C11B73BCEADCD7EDE18079F6AD4182C88010BD",
+            "sha-256": "439F024E58ED0A586262CC7DB8AA5527618EAA8156B4B91E5C8226179F03401F"
+          }
+        },
+        {
+          "location": {
+            "uri": "Assets/Scripts/Service/Sample.Service.asmdef",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "719802991E63020C31C6D3D100850C60",
+            "sha-1": "987276FDCA12B4DF25EADAA2DBABA7902CE2882C",
+            "sha-256": "B5862F7DFE012BFF844F59BC0DF93A2A33AF29146972471ED86B758377A08953"
+          }
+        },
+        {
+          "location": {
+            "uri": "Assets/Scripts/View/ClickButtonView.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "E14384C075DB058C5E36C759F9FFD28D",
+            "sha-1": "C538ACB3D0DD1A3251BBA452B02E15955E30E032",
+            "sha-256": "22438D7CF3AC7FF820BBAF36B2D1D8F54FFD9C5CCEC615757059D793B443C49F"
+          }
+        },
+        {
+          "location": {
+            "uri": "Assets/Scripts/View/ClickTextView.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "1618E358D881449A75E4CFE936A842BE",
+            "sha-1": "3244A00FA4774118D0EE5AE2839420254B72158C",
+            "sha-256": "282866D3DB5D94779A58B367096852FBC16C04C45564EE0110F16E2EDA60BFD7"
+          }
+        },
+        {
+          "location": {
+            "uri": "Assets/Scripts/View/CoinsView.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "370974AA29C169BB73DEB6FA7DD79176",
+            "sha-1": "DF369A62C7F312164B5A35E4C55003BE044939A0",
+            "sha-256": "5397C9D60846E8B0C41F3BCD3503C1F12ABD2FE4582FC6EB5F5FA452145E1556"
+          }
+        },
+        {
+          "location": {
+            "uri": "Assets/Scripts/View/OverdraftButtonView.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "8AF020D9290D311097BEF44D25EFB7A9",
+            "sha-1": "824135211635B7540AF318B200C292A77A7A4A05",
+            "sha-256": "8EEBF8DAAF2CE6B1C93CDDC4CAA3B0B1CEB0FB69247B330DB366DFDC1DC301F7"
+          }
+        },
+        {
+          "location": {
+            "uri": "Assets/Scripts/View/UpgradeButtonView.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "C128C55CB72AA43E2D07A3A048DD042B",
+            "sha-1": "21951DEB97FE8AB4D688FCEC6F81044AE5CF8772",
+            "sha-256": "9A6044018C3C441467DC5DEFA729595BD89E44197F4789EADCCA85080F0C25BE"
+          }
+        },
+        {
+          "location": {
+            "uri": "Assets/Scripts/View/UpgradeWindow.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "49FF377A93A993A22F69DFF0BF091C48",
+            "sha-1": "25320C651D13CBACEBD1930175C4B80FA32E7809",
+            "sha-256": "268995D7279232FE2382448F439E2EB575B1526D9EC5A7D9FB9569D41AB24633"
+          }
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    }
+  ]
+}

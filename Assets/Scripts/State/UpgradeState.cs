@@ -1,10 +1,10 @@
 using System;
 
-namespace Sample.State
+namespace State
 {
     [Serializable]
     public sealed class UpgradeState
     {
-        public int UpgradeLevel;
+        public int upgradeLevel;
     }
 }

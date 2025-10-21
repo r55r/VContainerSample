@@ -1,14 +1,14 @@
-using Sample.Service;
+using Service;
 using TMPro;
 using UnityEngine;
 using VContainer;
 
-namespace Sample.View
+namespace View
 {
     [RequireComponent(typeof(TMP_Text))]
     public sealed class ClickTextView : MonoBehaviour
     {
-        [SerializeField] TMP_Text _text;
+        [SerializeField] TMP_Text text;
 
         ClickService _clickService;
 
@@ -20,9 +20,9 @@ namespace Sample.View
         }
 
         void Reset() =>
-            _text = GetComponent<TMP_Text>();
+            text = GetComponent<TMP_Text>();
 
         public void UpdateState() =>
-            _text.text = $"Clicks: {_clickService.ClickCount}";
+            text.text = $"Clicks: {_clickService.ClickCount}";
     }
 }

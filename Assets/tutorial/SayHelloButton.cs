@@ -1,22 +1,23 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SayHelloButton : MonoBehaviour
+namespace tutorial
 {
-    private Button _button;
-
-    public event Action OnClick;
-
-    private void Awake()
+    public class SayHelloButton : MonoBehaviour
     {
-        _button = GetComponent<Button>();
+        private Button _button;
 
-        _button.onClick.AddListener(() =>
+        public event Action OnClick;
+
+        private void Awake()
         {
-            OnClick?.Invoke();
-        });
+            _button = GetComponent<Button>();
+
+            _button.onClick.AddListener(() =>
+            {
+                OnClick?.Invoke();
+            });
+        }
     }
 }

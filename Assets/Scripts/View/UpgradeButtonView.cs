@@ -2,12 +2,12 @@ using UnityEngine;
 using UnityEngine.UI;
 using VContainer;
 
-namespace Sample.View
+namespace View
 {
     [RequireComponent(typeof(Button))]
     public sealed class UpgradeButtonView : MonoBehaviour
     {
-        [SerializeField] Button _button;
+        [SerializeField] Button button;
 
         UpgradeWindow _window;
 
@@ -19,12 +19,12 @@ namespace Sample.View
 
         void Awake()
         {
-            _button.onClick.AddListener(Click);
+            button.onClick.AddListener(Click);
         }
 
         void Reset()
         {
-            _button = GetComponent<Button>();
+            button = GetComponent<Button>();
         }
 
         void Click()

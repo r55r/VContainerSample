@@ -1,16 +1,16 @@
-using Sample.Service;
-using Sample.Starter;
-using Sample.View;
+using Service;
+using Starter;
+using View;
 using UnityEngine;
 using VContainer;
 using VContainer.Unity;
 
-namespace Sample.Scope
+namespace Scope
 {
     public sealed class SampleSceneScope : LifetimeScope
     {
-        [SerializeField] ClickEffectView _clickEffectView;
-        [SerializeField] UpgradeWindow _upgradeWindow;
+        [SerializeField] ClickEffectView clickEffectView;
+        [SerializeField] UpgradeWindow upgradeWindow;
 
         protected override void Configure(IContainerBuilder builder)
         {
@@ -19,13 +19,13 @@ namespace Sample.Scope
                 .AsSelf()
                 .As<ITickable>();
             builder.Register<UpgradeService>(Lifetime.Scoped);
-            builder.RegisterInstance(_upgradeWindow);
+            builder.RegisterInstance(upgradeWindow);
             builder
                 .RegisterFactory<int, ClickEffectView>(resolver =>
                 {
                     return clickCount =>
                     {
-                        var view = resolver.Instantiate(_clickEffectView);
+                        var view = resolver.Instantiate(clickEffectView);
                         view.Init(clickCount);
                         return view;
                     };

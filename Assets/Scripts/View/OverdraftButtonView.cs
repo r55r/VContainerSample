@@ -1,28 +1,28 @@
-using Sample.Service;
+using Service;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using VContainer;
 
-namespace Sample.View
+namespace View
 {
     [RequireComponent(typeof(Button))]
     public sealed class OverdraftButtonView : MonoBehaviour
     {
-        [SerializeField] Button _button;
-        [SerializeField] TMP_Text _text;
+        [SerializeField] Button button;
+        [SerializeField] TMP_Text text;
 
         DebtService _service;
 
         void Reset()
         {
-            _button = GetComponent<Button>();
-            _text = GetComponentInChildren<TMP_Text>();
+            button = GetComponent<Button>();
+            text = GetComponentInChildren<TMP_Text>();
         }
 
         void Awake()
         {
-            _button.onClick.AddListener(ChangeState);
+            button.onClick.AddListener(ChangeState);
         }
 
         [Inject]
@@ -34,7 +34,7 @@ namespace Sample.View
 
         void UpdateState()
         {
-            _text.text = _service.AllowOverdraft ? "Disable overdraft" : "Enable overdraft";
+            text.text = _service.AllowOverdraft ? "Disable overdraft" : "Enable overdraft";
         }
 
         void ChangeState()

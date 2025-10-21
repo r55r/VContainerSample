@@ -1,10 +1,10 @@
 using System;
-using Sample.Manager;
+using Manager;
 using UnityEngine;
 using VContainer;
 using VContainer.Unity;
 
-namespace Sample.Starter
+namespace Starter
 {
     public sealed class EntryPointStarter : IStartable, IDisposable
     {

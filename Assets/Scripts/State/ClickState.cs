@@ -1,10 +1,10 @@
 using System;
 
-namespace Sample.State
+namespace State
 {
     [Serializable]
     public sealed class ClickState
     {
-        public int ClickCount;
+        public int clickCount;
     }
 }

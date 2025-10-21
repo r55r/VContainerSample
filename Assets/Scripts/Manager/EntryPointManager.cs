@@ -1,6 +1,6 @@
-using Sample.Service;
+using Service;
 
-namespace Sample.Manager
+namespace Manager
 {
     public sealed class EntryPointManager
     {

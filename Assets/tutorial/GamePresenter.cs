@@ -14,11 +14,6 @@ namespace tutorial
             _sayHelloButton = sayHelloButton;
         }
 
-        public void Tick()
-        {
-            _helloWorldService.SayHello();
-        }
-
         public void Start()
         {
             _sayHelloButton.OnClick += () =>

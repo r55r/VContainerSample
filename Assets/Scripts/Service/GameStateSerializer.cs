@@ -1,7 +1,7 @@
-using Sample.State;
+using State;
 using UnityEngine;
 
-namespace Sample.Service
+namespace Service
 {
     public sealed class GameStateSerializer : IGameStateSaver
     {
@@ -12,7 +12,7 @@ namespace Sample.Service
         public GameState LoadGameState()
         {
             var json = PlayerPrefs.GetString(PrefsKey, string.Empty);
-            _gameState = !string.IsNullOrWhiteSpace(json) ? JsonUtility.FromJson<GameState>(json) : new GameState();
+            _gameState = !string.IsNullOrWhiteSpace(json) ? JsonUtility.FromJson<GameState>(json) : new();
             return _gameState;
         }
 
