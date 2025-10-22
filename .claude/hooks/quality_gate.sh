@@ -12,41 +12,54 @@ if [ -z "$SLN_FILE" ]; then
   exit 0
 fi
 
+# 初期化
 F_OK=1
+I_ERR=0
+I_WARN=0
+R_CNT=0
+
+# dotnet format チェック
 if dotnet format "$SLN_FILE" --no-restore --verify-no-changes >/dev/null 2>&1; then
   F_OK=0
 fi
 
 # R# InspectCode（SARIF）
 INSPECT="$REPORT/inspect.sarif"
-jb inspectcode "$SLN_FILE" -o="$INSPECT" >/dev/null || true
+if command -v jb >/dev/null 2>&1; then
+  jb inspectcode "$SLN_FILE" -o="$INSPECT" >/dev/null 2>&1 || true
 
-# SARIF のレベル別件数を集計（jq）
-JQ='[.runs[].results[]? .level] | group_by(.) | map({(.[0]):length}) | add // {}'
-READABLE="$(jq -r "$JQ" "$INSPECT" 2>/dev/null || echo '{}')"
-I_ERR="$(jq -r '.error // 0' <<<"$READABLE")"
-I_WARN="$(jq -r '.warning // 0' <<<"$READABLE")"
+  # SARIF のレベル別件数を集計（jq）
+  if command -v jq >/dev/null 2>&1 && [ -f "$INSPECT" ]; then
+    JQ='[.runs[].results[]? .level] | group_by(.) | map({(.[0]):length}) | add // {}'
+    READABLE="$(jq -r "$JQ" "$INSPECT" 2>/dev/null || echo '{}')"
+    I_ERR="$(jq -r '.error // 0' <<<"$READABLE" 2>/dev/null || echo "0")"
+    I_WARN="$(jq -r '.warning // 0' <<<"$READABLE" 2>/dev/null || echo "0")"
+  fi
+fi
 
 # Roslynator（XML）
 ROSLY="$REPORT/roslynator.xml"
-roslynator analyze "$SLN_FILE" --analyzer-assemblies tools/analyzers \
-  --severity-level info --output "$ROSLY" --output-format xml >/dev/null || true
-R_CNT=0
-if [ -f "$ROSLY" ]; then
-  R_CNT="$(grep -c '<Diagnostic' "$ROSLY" 2>/dev/null || echo "0")"
+if command -v roslynator >/dev/null 2>&1; then
+  if [ -d "tools/analyzers" ]; then
+    roslynator analyze "$SLN_FILE" --analyzer-assemblies tools/analyzers \
+      --severity-level info --output "$ROSLY" --output-format xml >/dev/null 2>&1 || true
+  else
+    roslynator analyze "$SLN_FILE" \
+      --severity-level info --output "$ROSLY" --output-format xml >/dev/null 2>&1 || true
+  fi
+
+  if [ -f "$ROSLY" ]; then
+    R_CNT="$(grep -c '<Diagnostic' "$ROSLY" 2>/dev/null || echo "0")"
+  fi
 fi
 
 # いずれかヒットで Stop をブロックし、Claude に次アクションを指示
 if [ "$F_OK" -ne 0 ] || [ "$I_ERR" -gt 0 ] || [ "$I_WARN" -gt 0 ] || [ "$R_CNT" -gt 0 ]; then
-  REASON="Quality gate 未達。dotnet format: $( [ $F_OK -eq 0 ] && echo OK || echo NG ); InspectCode error:$I_ERR warn:$I_WARN; Roslynator:$R_CNT。レポートを確認して修正してから再実行してください。"
+  REASON="Quality gate 未達。dotnet format: $( [ $F_OK -eq 0 ] && echo OK || echo NG ); InspectCode error:${I_ERR} warn:${I_WARN}; Roslynator:${R_CNT}。レポートを確認: InspectCode=$INSPECT ; Roslynator=$ROSLY"
   cat <<JSON
 {
   "decision": "block",
-  "reason": "$REASON",
-  "hookSpecificOutput": {
-    "hookEventName": "Stop",
-    "additionalContext": "InspectCode: $INSPECT ; Roslynator: $ROSLY"
-  }
+  "reason": "$REASON"
 }
 JSON
 else

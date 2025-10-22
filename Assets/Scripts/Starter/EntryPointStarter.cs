@@ -19,7 +19,11 @@ namespace Starter
             Debug.Log("EntryPointStarter: initialized on scene load");
         }
 
-        public void Start() => _manager.Start();
+        public void Start()
+        {
+            // Hook test: Start the entry point manager
+            _manager.Start();
+        }
 
         public void Dispose()
         {

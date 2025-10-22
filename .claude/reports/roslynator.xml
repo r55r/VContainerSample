@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roslynator>
+  <CodeAnalysis>
+    <Summary>
+      <Diagnostic Id="UNT0039" Title="Use RequireComponent attribute when self-invoking GetComponent" Count="1">
+        <Description>The RequireComponent attribute automatically adds required components as dependencies.</Description>
+        <HelpLink>https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0039.md</HelpLink>
+      </Diagnostic>
+    </Summary>
+    <Projects>
+      <Project Name="Assembly-CSharp" FilePath="/Users/takao-ryota/Documents/Github/VContainerSample/Assembly-CSharp.csproj">
+        <Diagnostics>
+          <Diagnostic Id="UNT0039">
+            <Severity>Info</Severity>
+            <Message>Use RequireComponent attribute when self-invoking GetComponent</Message>
+            <FilePath>/Users/takao-ryota/Documents/Github/VContainerSample/Assets/tutorial/SayHelloButton.cs</FilePath>
+            <Location Line="15" Character="23" />
+          </Diagnostic>
+        </Diagnostics>
+      </Project>
+    </Projects>
+  </CodeAnalysis>
+</Roslynator>

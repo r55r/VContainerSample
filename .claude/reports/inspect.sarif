@@ -6,7 +6,7 @@
       "results": [
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "'pixel_t' does not name a value"
@@ -39,7 +39,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'GetColor'"
@@ -72,7 +72,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'Input'"
@@ -105,7 +105,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'Input'"
@@ -138,7 +138,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'Input'"
@@ -171,7 +171,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'ObjSpaceViewDir'"
@@ -204,7 +204,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'SAMPLE_TEXTURE2D'"
@@ -237,7 +237,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'SAMPLE_TEXTURE2D'"
@@ -270,7 +270,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'SAMPLE_TEXTURE2D'"
@@ -303,7 +303,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'SAMPLE_TEXTURE2D'"
@@ -336,7 +336,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'SamplerState_Linear_Clamp'"
@@ -369,7 +369,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'SamplerState_Linear_Clamp'"
@@ -402,7 +402,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'SamplerState_Linear_Clamp'"
@@ -435,7 +435,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'SamplerState_Linear_Clamp'"
@@ -468,7 +468,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'SurfaceOutput'"
@@ -501,7 +501,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'UNITY_INITIALIZE_OUTPUT'"
@@ -534,7 +534,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'UNITY_INITIALIZE_OUTPUT'"
@@ -567,7 +567,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO'"
@@ -600,7 +600,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'UNITY_MATRIX_P'"
@@ -633,7 +633,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'UNITY_SETUP_INSTANCE_ID'"
@@ -666,7 +666,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'UNITY_SETUP_INSTANCE_ID'"
@@ -699,7 +699,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'UNITY_TRANSFER_INSTANCE_ID'"
@@ -732,7 +732,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'UNITY_VERTEX_INPUT_INSTANCE_ID'"
@@ -765,7 +765,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'UnityObjectToClipPos'"
@@ -798,7 +798,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'UnityObjectToClipPos'"
@@ -831,7 +831,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'UnityObjectToWorldNormal'"
@@ -864,7 +864,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'WorldSpaceViewDir'"
@@ -897,7 +897,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'WorldSpaceViewDir'"
@@ -930,7 +930,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_Ambient'"
@@ -963,7 +963,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_Bevel'"
@@ -996,7 +996,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_BevelAmount'"
@@ -1029,7 +1029,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_BevelClamp'"
@@ -1062,7 +1062,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_BevelClamp'"
@@ -1095,7 +1095,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_BevelClamp'"
@@ -1128,7 +1128,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_BevelClamp'"
@@ -1161,7 +1161,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_BevelClamp'"
@@ -1194,7 +1194,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_BevelOffset'"
@@ -1227,7 +1227,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_BevelOffset'"
@@ -1260,7 +1260,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_BevelRoundness'"
@@ -1293,7 +1293,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_BevelRoundness'"
@@ -1326,7 +1326,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_BevelRoundness'"
@@ -1359,7 +1359,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_BevelRoundness'"
@@ -1392,7 +1392,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_BevelRoundness'"
@@ -1425,7 +1425,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_BevelType'"
@@ -1458,7 +1458,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_BevelWidth'"
@@ -1491,7 +1491,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_BevelWidth'"
@@ -1524,7 +1524,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_ClipRect'"
@@ -1557,7 +1557,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_Diffuse'"
@@ -1590,7 +1590,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_EnvMatrix'"
@@ -1623,7 +1623,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_FaceColor'"
@@ -1656,7 +1656,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_FaceColor'"
@@ -1689,7 +1689,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_FaceDilate'"
@@ -1722,7 +1722,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_FaceDilate'"
@@ -1755,7 +1755,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_FaceShininess'"
@@ -1788,7 +1788,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_FaceTex'"
@@ -1821,7 +1821,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_FaceUVSpeedX'"
@@ -1854,7 +1854,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_FaceUVSpeedY'"
@@ -1887,7 +1887,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_GlowColor'"
@@ -1920,7 +1920,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_GlowColor'"
@@ -1953,7 +1953,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_GlowInner'"
@@ -1986,7 +1986,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_GlowOffset'"
@@ -2019,7 +2019,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_GlowOuter'"
@@ -2052,7 +2052,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_GlowPower'"
@@ -2085,7 +2085,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_GradientScale'"
@@ -2118,7 +2118,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_GradientScale'"
@@ -2151,7 +2151,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_GradientScale'"
@@ -2184,7 +2184,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_GradientScale'"
@@ -2217,7 +2217,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_LightAngle'"
@@ -2250,7 +2250,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_LightAngle'"
@@ -2283,7 +2283,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_MainTex'"
@@ -2316,7 +2316,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_MainTex'"
@@ -2349,7 +2349,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_MainTex'"
@@ -2382,7 +2382,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_MainTex'"
@@ -2415,7 +2415,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_MainTex'"
@@ -2448,7 +2448,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_MainTex'"
@@ -2481,7 +2481,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_OutlineColor'"
@@ -2514,7 +2514,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_OutlineColor'"
@@ -2547,7 +2547,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_OutlineShininess'"
@@ -2580,7 +2580,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_OutlineSoftness'"
@@ -2613,7 +2613,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_OutlineSoftness'"
@@ -2646,7 +2646,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_OutlineTex'"
@@ -2679,7 +2679,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_OutlineUVSpeedX'"
@@ -2712,7 +2712,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_OutlineUVSpeedY'"
@@ -2745,7 +2745,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_OutlineWidth'"
@@ -2778,7 +2778,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_OutlineWidth'"
@@ -2811,7 +2811,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_OutlineWidth'"
@@ -2844,7 +2844,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_PerspectiveFilter'"
@@ -2877,7 +2877,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_Reflectivity'"
@@ -2910,7 +2910,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_Reflectivity'"
@@ -2943,7 +2943,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_ScaleRatioA'"
@@ -2976,7 +2976,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_ScaleRatioA'"
@@ -3009,7 +3009,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_ScaleRatioA'"
@@ -3042,7 +3042,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_ScaleRatioA'"
@@ -3075,7 +3075,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_ScaleRatioA'"
@@ -3108,7 +3108,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_ScaleRatioA'"
@@ -3141,7 +3141,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_ScaleRatioB'"
@@ -3174,7 +3174,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_ScaleRatioB'"
@@ -3207,7 +3207,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_ScaleX'"
@@ -3240,7 +3240,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_ScaleY'"
@@ -3273,7 +3273,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_ScreenParams'"
@@ -3306,7 +3306,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_ShaderFlags'"
@@ -3339,7 +3339,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_Sharpness'"
@@ -3372,7 +3372,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_Sharpness'"
@@ -3405,7 +3405,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_SpecularColor'"
@@ -3438,7 +3438,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_SpecularColor'"
@@ -3471,7 +3471,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_SpecularPower'"
@@ -3504,7 +3504,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_SpecularPower'"
@@ -3537,7 +3537,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_TextureHeight'"
@@ -3570,7 +3570,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_Time'"
@@ -3603,7 +3603,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_Time'"
@@ -3636,7 +3636,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_Time'"
@@ -3669,7 +3669,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_Time'"
@@ -3702,7 +3702,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_Time'"
@@ -3735,7 +3735,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_VertexOffsetX'"
@@ -3768,7 +3768,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_VertexOffsetX'"
@@ -3801,7 +3801,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_VertexOffsetY'"
@@ -3834,7 +3834,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_VertexOffsetY'"
@@ -3867,7 +3867,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_WeightBold'"
@@ -3900,7 +3900,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_WeightBold'"
@@ -3933,7 +3933,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_WeightNormal'"
@@ -3966,7 +3966,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol '_WeightNormal'"
@@ -3999,7 +3999,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'appdata_full'"
@@ -4032,7 +4032,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'fixed4'"
@@ -4065,7 +4065,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'fixed4'"
@@ -4098,7 +4098,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'fixed4'"
@@ -4131,7 +4131,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'fixed4'"
@@ -4164,7 +4164,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'fixed4'"
@@ -4197,7 +4197,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'fixed4'"
@@ -4230,7 +4230,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'fixed4'"
@@ -4263,7 +4263,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'fixed4'"
@@ -4296,7 +4296,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'fixed4'"
@@ -4329,7 +4329,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'fixed4'"
@@ -4362,7 +4362,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "warning",
           "message": {
             "text": "Cannot resolve symbol 'texture2D'"
@@ -4395,7 +4395,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "error",
           "message": {
             "text": "Expected ';'"
@@ -4428,7 +4428,7 @@
         },
         {
           "ruleId": ".CppCompilerErrors",
-          "ruleIndex": 4,
+          "ruleIndex": 3,
           "level": "error",
           "message": {
             "text": "Expected a declaration"
@@ -4493,11 +4493,11 @@
           }
         },
         {
-          "ruleId": "RedundantUsingDirective",
+          "ruleId": "UnusedMember.Global",
           "ruleIndex": 1,
-          "level": "warning",
+          "level": "note",
           "message": {
-            "text": "Using directive is not required by the code and can be safely removed"
+            "text": "Method 'Init' is never used"
           },
           "locations": [
             {
@@ -4508,18 +4508,18 @@
                   "index": 6
                 },
                 "region": {
-                  "startLine": 5,
-                  "startColumn": 1,
-                  "endLine": 5,
-                  "endColumn": 18,
-                  "charOffset": 77,
-                  "charLength": 17
+                  "startLine": 16,
+                  "startColumn": 21,
+                  "endLine": 16,
+                  "endColumn": 25,
+                  "charOffset": 309,
+                  "charLength": 4
                 }
               }
             }
           ],
           "partialFingerprints": {
-            "contextRegionHash/v1": "5CF1B663DCFC1624E2A5A3A7C6149549CBE5D617DCA293D2C52B213E802E5007"
+            "contextRegionHash/v1": "BA5BE5E6C5AFE17B6BCAB304A23DE57C8FF5E8FDF1371EF7F6F8BC2E7F194F44"
           },
           "properties": {
             "tags": ["C#",".NETFramework 4.7.1"]
@@ -4527,7 +4527,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 2,
+          "ruleIndex": 1,
           "level": "note",
           "message": {
             "text": "Method 'Init' is never used"
@@ -4560,7 +4560,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 2,
+          "ruleIndex": 1,
           "level": "note",
           "message": {
             "text": "Method 'Init' is never used"
@@ -4593,7 +4593,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 2,
+          "ruleIndex": 1,
           "level": "note",
           "message": {
             "text": "Method 'Init' is never used"
@@ -4626,7 +4626,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 2,
+          "ruleIndex": 1,
           "level": "note",
           "message": {
             "text": "Method 'Init' is never used"
@@ -4659,7 +4659,7 @@
         },
         {
           "ruleId": "UnusedMember.Global",
-          "ruleIndex": 2,
+          "ruleIndex": 1,
           "level": "note",
           "message": {
             "text": "Method 'Init' is never used"
@@ -4692,7 +4692,7 @@
         },
         {
           "ruleId": "UnusedMember.Local",
-          "ruleIndex": 3,
+          "ruleIndex": 2,
           "level": "warning",
           "message": {
             "text": "Method 'Init' is never used"
@@ -4747,46 +4747,6 @@
                 {
                   "target": {
                     "id": "CSHARP.UNITY",
-                    "toolComponent": {
-                      "name": "InspectCode"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "RedundantUsingDirective",
-              "fullDescription": {
-                "text": "Using directive is not required by the code and can be safely removed"
-              },
-              "help": {
-                "text": "https://www.jetbrains.com/help/resharper/RedundantUsingDirective.html"
-              },
-              "shortDescription": {
-                "text": "Redundant using directive"
-              },
-              "defaultConfiguration": {
-                "level": "warning"
-              },
-              "helpUri": "https://www.jetbrains.com/help/resharper/RedundantUsingDirective.html",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "CSHARP.CodeRedundancy",
-                    "toolComponent": {
-                      "name": "InspectCode"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                },
-                {
-                  "target": {
-                    "id": "ASPX.CodeRedundancy",
                     "toolComponent": {
                       "name": "InspectCode"
                     }
@@ -4948,23 +4908,6 @@
               "name": "Aspx"
             },
             {
-              "id": "ASPX.CodeRedundancy",
-              "name": "Redundancies in Code",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "ASPX",
-                    "toolComponent": {
-                      "name": "InspectCode"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ]
-            },
-            {
               "id": "ASPX.DeclarationRedundancy",
               "name": "Redundancies in Symbol Declarations",
               "relationships": [
@@ -5009,23 +4952,6 @@
             {
               "id": "CSHARP",
               "name": "C#"
-            },
-            {
-              "id": "CSHARP.CodeRedundancy",
-              "name": "Redundancies in Code",
-              "relationships": [
-                {
-                  "target": {
-                    "id": "CSHARP",
-                    "toolComponent": {
-                      "name": "InspectCode"
-                    }
-                  },
-                  "kinds": [
-                    "superset"
-                  ]
-                }
-              ]
             },
             {
               "id": "CSHARP.DeclarationRedundancy",
@@ -5114,7 +5040,7 @@
       "versionControlProvenance": [
         {
           "repositoryUri": "https://github.com/r55r/VContainerSample.git",
-          "revisionId": "c8175d7bc52016ec8df0e232e9244cae873bbcc4",
+          "revisionId": "552cb577121d0d14ec01304ff2e049007d6445c6",
           "branch": "main",
           "mappedTo": {
             "uriBaseId": "solutionDir"
@@ -5202,9 +5128,9 @@
             "uriBaseId": "solutionDir"
           },
           "hashes": {
-            "md5": "35466E8594CFCE79D453ABD476CA9128",
-            "sha-1": "FB002420252B1DC6FDAF804A8497B27C98CD1B66",
-            "sha-256": "EF0D13BA2F1595BFEA32591ACC8FB53DC6880F065FF02C21825B7E05C3FB23D5"
+            "md5": "53161F234AC21BEBA2186F0840043EBA",
+            "sha-1": "530D333A4DCE211DAD0E149BAF1915A413F55303",
+            "sha-256": "BCCAFA75BF4805ED68BFB716C170A846EC20DD4642DC557D43B11551C9A98EA5"
           }
         },
         {

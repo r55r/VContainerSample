@@ -4,6 +4,7 @@ using UnityEngine.UI;
 
 namespace tutorial
 {
+    [RequireComponent(typeof(Button))]
     public class SayHelloButton : MonoBehaviour
     {
         private Button _button;
