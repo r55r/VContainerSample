@@ -5,14 +5,21 @@ ROOT="${CLAUDE_PROJECT_DIR:-$PWD}"
 REPORT="$ROOT/.claude/reports"
 mkdir -p "$REPORT"
 
+# .slnファイルを自動検出
+SLN_FILE=$(find "$ROOT" -maxdepth 1 -name "*.sln" | head -n 1)
+if [ -z "$SLN_FILE" ]; then
+  echo "Error: No .sln file found in $ROOT"
+  exit 0
+fi
+
 F_OK=1
-if dotnet format "FG.sln" --no-restore --verify-no-changes >/dev/null 2>&1; then
+if dotnet format "$SLN_FILE" --no-restore --verify-no-changes >/dev/null 2>&1; then
   F_OK=0
 fi
 
 # R# InspectCode（SARIF）
 INSPECT="$REPORT/inspect.sarif"
-jb inspectcode "FG.sln" -o="$INSPECT" >/dev/null || true
+jb inspectcode "$SLN_FILE" -o="$INSPECT" >/dev/null || true
 
 # SARIF のレベル別件数を集計（jq）
 JQ='[.runs[].results[]? .level] | group_by(.) | map({(.[0]):length}) | add // {}'
@@ -22,12 +29,15 @@ I_WARN="$(jq -r '.warning // 0' <<<"$READABLE")"
 
 # Roslynator（XML）
 ROSLY="$REPORT/roslynator.xml"
-roslynator analyze "FG.sln" --analyzer-assemblies tools/analyzers \
+roslynator analyze "$SLN_FILE" --analyzer-assemblies tools/analyzers \
   --severity-level info --output "$ROSLY" --output-format xml >/dev/null || true
-R_CNT="$(grep -c '<Diagnostic' "$ROSLY" || true)"
+R_CNT=0
+if [ -f "$ROSLY" ]; then
+  R_CNT="$(grep -c '<Diagnostic' "$ROSLY" 2>/dev/null || echo "0")"
+fi
 
 # いずれかヒットで Stop をブロックし、Claude に次アクションを指示
-if [ "$F_OK" -ne 0 ] || [ "$I_ERR" -gt 0 ] || [ "$I_WARN" -gt 0 ] || [ "${R_CNT:-0}" -gt 0 ]; then
+if [ "$F_OK" -ne 0 ] || [ "$I_ERR" -gt 0 ] || [ "$I_WARN" -gt 0 ] || [ "$R_CNT" -gt 0 ]; then
   REASON="Quality gate 未達。dotnet format: $( [ $F_OK -eq 0 ] && echo OK || echo NG ); InspectCode error:$I_ERR warn:$I_WARN; Roslynator:$R_CNT。レポートを確認して修正してから再実行してください。"
   cat <<JSON
 {
